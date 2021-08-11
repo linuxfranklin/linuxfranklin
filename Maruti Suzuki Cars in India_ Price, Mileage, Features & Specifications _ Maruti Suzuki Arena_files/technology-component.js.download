@@ -1,0 +1,250 @@
+(function(){
+
+
+	$(".comfort-slider").slick({
+		dots: false,
+		infinite: true,
+		speed: 800,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		autoplay: true,
+  		autoplaySpeed: 2000,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		],
+
+});
+
+//single content only slide
+$(".targetcontent-slider").slick({
+	dots: false,
+	infinite: true,
+	speed: 800,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: true,
+	autoplay: true,
+	  autoplaySpeed: 5000,
+	responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+	],
+
+});
+
+
+ // technology component specific code here…
+  $(".tech-slider").slick({
+	  dots: false,
+	  infinite: false,
+	  speed: 800,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: true,
+	  responsive: [
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true,
+	        dots: true
+	      }
+	    },
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	  ],
+
+  });
+
+  $(".safety-slider").slick({
+      dots: false,
+      infinite: false,
+      speed: 800,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      responsive: [
+	    {
+	        breakpoint: 1024,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1,
+	            infinite: true,
+	            dots: true
+	        }
+	    },
+	    {
+	        breakpoint: 600,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1
+	        }
+	    },
+	    {
+	        breakpoint: 480,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1
+	        }
+	    }
+      ],
+
+  });
+
+
+    // technology component specific code here…
+  $(".generic-slider1").slick({
+      dots: false,
+      infinite: false,
+      speed: 800,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      responsive: [
+	    {
+	        breakpoint: 1024,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1,
+	            infinite: true,
+	            dots: true
+	        }
+	    },
+	    {
+	        breakpoint: 600,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1
+	        }
+	    },
+	    {
+	        breakpoint: 480,
+	        settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1
+	        }
+	    }
+      ],
+
+  });
+
+
+
+
+	$(document).on('click', 'li[data-slide]', function(e) {
+		e.preventDefault();
+		var slideno = $(this).data('slide');
+		
+		if($(this).closest('.tech-slider').length > 0){
+						$('.tech-slider').slick('slickGoTo', slideno - 1);
+		}
+		else if($(this).closest('.comfort-slider').length  > 0){
+						$(".comfort-slider").slick('slickGoTo', slideno - 1);
+		}
+		else if($(this).closest('.safety-slider').length  > 0){
+						$(".safety-slider").slick('slickGoTo', slideno - 1);
+		}
+		else if($(this).closest('.sprecco-comfort').length  > 0){
+			$(".sprecco-comfort").slick('slickGoTo', slideno - 1);
+}
+
+else if($(this).closest('.breezasizling-comfort').length  > 0){
+$(".breezasizling-comfort").slick('slickGoTo', slideno - 1);
+}
+	
+		else if($(this).closest('.targetcontent-slider').length  > 0){
+			$(".targetcontent-slider").slick('slickGoTo', slideno - 1);
+}
+});
+
+
+
+// $('.tech-slider .slicknumber').each(function(key, val){
+// 	var key = key+1;
+// 	$(this).html("0"+key)
+// })
+
+// $('.safety-slider .slicknumber').each(function(key, val){
+// 	var key = key+1;
+// 	$(this).html("0"+key)
+// })
+  	
+})();
+if (window.location.href.indexOf("/alto/hindi") > -1) {
+    var thevalue = '/alto/hindi';    
+    var exists = $('select.language-trans option').filter(function(){ 
+        return $(this).val() == thevalue; }).length;
+    if(exists){
+        $('select.language-trans option')
+        .removeAttr('selected')
+        .filter('[value="'+thevalue+'"]')
+            .attr('selected', 'selected')
+        //$(this).attr('selected="selected"')
+    }
+    
+   }
+   else{
+    thevalue = '/alto';
+    $('select.language-trans option')
+        .removeAttr('selected')
+        .filter('[value="'+thevalue+'"]')
+            .attr('selected', 'selected')
+   
+    }

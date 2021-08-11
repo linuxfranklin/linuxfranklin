@@ -1,0 +1,328 @@
+
+/*BTD-popup-test-dtive*/
+.booktestpopup.overlayContent .content{padding:00px 20px 20px 20px;}
+.booktestpopup .mandatory-heading br{display:none}
+.booktestpopup .mandatory-heading{display:block;margin:5px 0 00px}
+.booktestpopup .mandatory-heading p{font-weight:700!important}
+#defaultModal .booktestpopup .content .form-group select {border: none; border-bottom: solid 1px #ccc; border-radius: 0;padding: 0px;}
+a#lnkOTP1{top:15px!important;right:10px;font-weight:500}
+div#forms-disclaimer input#FormChkBoxBookPop{margin:0;display:inline-block;float:left;width:auto;height:auto;margin-right:10px}
+form.testDriveform_pop .form-group .col-lg-6{margin-bottom:0px}
+div#bsd {position: relative !important; margin: 0 !important; float: right !important; text-align: right !important; width: 50%; right: 0 !important;}
+span#error-span {display: block; font-size: 12px; font-weight: 500;}
+#defaultModal .booktestpopup .content .form-group input {border: none; border-bottom: solid 1px #ccc;}
+#defaultModal .booktestpopup .header .title {padding: 20px 0 0 20px;}
+span.btd-desc-span {font-size: 12px;}
+.booktestpopup .mandatory-heading p {line-height: normal;}
+button#btnbooktestdriveOtp {background: #2d3393 !important; border: none; text-transform: uppercase; border-radius: 0; margin-bottom: 10px !important; font-size: 13px;}
+button#btnbooktestdriveOtp:disabled {background: #ccc !important; border: none !important; opacity: 1; color: #333; margin-bottom: 10px !important;}
+#defaultModal {max-height: initial;}
+div#defaultModal .modal-content {margin-top: 0px;}
+div#defaultModal .modal-dialog {margin-top: 7%;}
+span#otptestDriveError {font-size: 12px; font-weight: 400;}
+section.three60view {min-height: auto!important;}
+/*BTD-popup-test-dtive*/
+
+/*common-360-issue*/
+.three60view .fullview360 {position: relative;}
+section.fullview360 section.preview section.back-menu a img {height: auto; background: none; display: inline-block;}
+/*common-360-issue*/
+
+/*servive-issue*/
+.mrgn {display: inline-block;}
+a#price-list {border: none; font-weight: normal; color: #333; font-size: 13px;}
+/*servive-issue*/
+
+/*EBooking*/
+.forms-disclaimer input#FormChkBoxBook5{margin:0;display:inline-block;float:left;width:auto;height:auto;margin-right:10px}
+form#ebook-otp .footer input#screen1-button {width: 135px; line-height: 17px; height: 40px; margin-bottom: 23px; border-radius: 0;}
+/*EBooking*/
+
+
+/*FMP Conflict*/
+.personalDetaiForm .psDiscTxt ul li {position: relative;}
+.personalDetaiForm .psDiscTxt ul li input#disclaimer {position: absolute; width: auto; height: auto;}
+.modal.fade.terms-use-popup.in.show {background: #000000ad;}
+.modal.fade.privacy-popup.in.show{background: #000000ad;}
+.modal.fade.terms-condition-popup.in.show{background: #000000ad;}
+/*FMP Conflict*/
+
+div#shmcarloader img {margin: 0 auto;}
+
+/*Popup_close-design-issue-alto*/
+body.alto div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.alto #defaultModal .modal-header .close {display: block; right:0px;}
+body.alto #defaultModal .modal-content .modal-body {padding: 0; }
+body.alto #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-alto*/
+
+/*Popup_close-design-issue-wagonr*/
+body.wagonr div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.wagonr #defaultModal .modal-header .close {display: block; right:0px;}
+body.wagonr #defaultModal .modal-content .modal-body {padding: 0; }
+body.wagonr #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-wagonr*/
+
+/*Popup_close-design-issue-celerio*/
+body.celerio div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.celerio #defaultModal .modal-header .close {display: block; right:0px;}
+body.celerio #defaultModal .modal-content .modal-body {padding: 0; }
+body.celerio #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-celerio*/
+
+/*Popup_close-design-issue-tango-orange*/
+body.tango-orange div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.tango-orange #defaultModal .modal-header .close {display: block; right:0px;}
+body.tango-orange #defaultModal .modal-content .modal-body {padding: 0; }
+body.tango-orange #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-tango-orange*/
+
+/*Popup_close-design-issue-tango-swift */
+body.swift div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.swift #defaultModal .modal-header .close {display: block; right:0px;}
+body.swift #defaultModal .modal-content .modal-body {padding: 0; }
+body.swift #defaultModal {background: #000000ad;}
+body.swift .custom-prise-select-city { right: auto; left: 65px; top: 530px !important; }
+body.swift .generic-hero .generic-slider .items .mediacontent.vcenter .desktopcontent { left: 65px; position: relative; width: 95%; margin: 20px 0; }
+body.swift .product-carousel .productCarousel .items .productItems .proudctFooter .autogear { position: relative; top: 100%; }
+body.swift .left-menu { background: transparent; display: inline-block; height: inherit; }
+body.swift .three60view .three60view-content .chase-description p {color: #fff;}
+body.swift .generic-hero .generic-slider .items .mediacontent p {line-height: 17px;}
+body.swift .three60view .three60view-content .chase-description {padding-left: 50px;}
+body.swift .featureCarousel.slick-initialized.slick-slider .slick-track {width: 100% !important;}
+body.swift .feature-component .tab-content .tabWrapper .sliderWrapper {width: 100% !important;}
+body.swift .feature-component .tab-content .tabWrapper .sliderWrapper .flxitem .flxinner .contentWrapper h2{font-size: 20px !important}
+/*Popup_close-design-issue-tango-swift */
+
+/*Popup_close-design-issue-dzireblue */
+body.dzireblue div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.dzireblue #defaultModal .modal-header .close {display: block; right:0px;}
+body.dzireblue #defaultModal .modal-content .modal-body {padding: 0; }
+body.dzireblue #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-dzireblue  */
+
+/*Popup_close-design-issue-breeza */
+body.breeza div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.breeza #defaultModal .modal-header .close {display: block; right:0px;}
+body.breeza #defaultModal .modal-content .modal-body {padding: 0; }
+body.breeza #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-breeza  */
+
+/*Popup_close-design-issue-ertiga  */
+body.ertiga div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.ertiga #defaultModal .modal-header .close {display: block; right:0px;}
+body.ertiga #defaultModal .modal-content .modal-body {padding: 0; }
+body.ertiga #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-ertiga   */
+
+/*Popup_close-design-issue-eeco   */
+body.eeco div#defaultModal .modal-dialog.modalCenter .modal-content {margin-top: 0;}
+body.eeco #defaultModal .modal-header .close {display: block; right:0px;}
+body.eeco #defaultModal .modal-content .modal-body {padding: 0; }
+body.eeco #defaultModal {background: #000000ad;}
+/*Popup_close-design-issue-eeco    */
+
+
+/*Alto-hindi*/
+header .logoWrapper {width: 21% !important;}
+header .utilityWrapper {width: 29% !important;}
+.proudctFooter p {color: #fff; font-size: 12px; line-height: 23px;}
+h3.all-car-fule-efficiency-tittle {color: #fff; font-size: 12px; margin-bottom: 10px;}
+.img-car img {width: 84%; float: right;}
+.feature-component .tab-content .tabWrapper .sliderWrapper .flxitem .flxinner .contentWrapper h2 {font-size: 20px;}
+.feature-component .tab-content .tabWrapper .sliderWrapper .flxitem .flxinner .contentWrapper h2 {margin-bottom: 10px;}
+header .utilityWrapper .utilityItems li ul {position: absolute; top: 55px;}
+/*.proudctFooter .pull-right {z-index: -2;}*/
+button.close.viewpop {float: right;}
+section.chase-description p {color: #fff;}
+.altok10-info ul {padding-bottom: 10px;}
+.altok10-info ul li {line-height: 24px;}
+input#FormChkBoxBookBOSecondStep {width: 15px; height: 15px; display: inline-block; margin-left: 20px; margin-right: 5px;}
+.genericWrapper .careers-wrapper .imgWrapper{height: -webkit-fill-available;}
+.fule-description {clear: both; padding-top: 10px; color: #fff; font-size: 12px; line-height: 20px;}
+.custom-prise-select-city .price-inner-container select{background: url(../images/alto-hindi-select-arrow.png) 100% no-repeat;}
+header nav.primaryNav .site-nav>ul .wrap .subnav .container.tabbed .secondLevel{top: 35px;}
+
+/*Brand-Banner-common-right-icons*/
+.productItems .proudctFooter .col-lg-4.pull-right {position: relative !important; width: 33.33333% !important; top: 100px !important; height: auto !important;}
+.product-carousel .productCarousel .items .productItems .proudctFooter .autogear {float: right; padding-right: 0; padding-top: 0; position: relative; bottom: 0;}
+body.eeco .productItems .proudctFooter .col-lg-4.pull-right {top: 50px !important;}
+/*Brand-Banner-common-right-icons*/
+
+
+form#new-registration .signUpBox input#name {display: none;}
+.modal-backdrop.fade.show {display: none !important;}
+div#detailsSavedModal .content.popup-font.active {height: auto; padding: 20px 20px;}
+#defaultModal .modal-header .close .icon-close-bg .icon-close {color: #000;}
+#defaultModal .modal-header .close {display: block !important;}
+#defaultModal .modal-header .close .icon-close-bg {color: #fff0;}
+.targetcontent-slider button.slick-next.slick-arrow {right: 0 !important;}
+.targetcontent-slider button.slick-prev {left: 0 !important;}
+ul.enquiry-tittle-value li:last-child {cursor: pointer; color: #2f2a85; font-weight: 600;}
+.channel-bg picture img {margin: 0 auto; width: 100%;}
+
+
+/*Arena_Login-double-cross-issue*/
+div#defaultModal .modal-body .overlayContent.loginbox button.close {visibility: hidden;}
+/*Arena_Login-double-cross-issue*/
+
+/* Milage Page-CSS */
+body.swiftmilage .mediacontent.col-lg-5.white.left.vcenter {padding: 0; width: 50%; padding-right: 10%; padding-left: 20px;}
+body.celeriomilage .mediacontent.col-lg-5.white.left.vcenter {padding: 0; width: 50%; padding-right: 10%; padding-left: 20px;}
+body.eecomilage .mediacontent.col-lg-5.white.left.vcenter {padding: 0; width: 50%; padding-right: 10%; padding-left: 70px;}
+/* Milage Page-CSS */
+
+
+/*Home_page_gallery*/
+.gallerycomponent .gallery-images .carousal-items {width: 50%; display: inline-block;}
+/*Home_page_gallery*/
+
+
+/*Book-a-test-drive*/
+div#booktestdrivemainform form.testDrive .checkbox label:before {display: none;}
+div#booktestdrivemainform form.testDrive .checkbox label:after {display: none !important;}
+div#booktestdrivemainform form.testDrive .checkbox input#btdcheckbox {display: inline-block; margin: 0; z-index: 999999; width: 19px; height: 19px; left: 0;}
+div#booktestdrivemainform .bookTestDrive.bookTest {padding: 60px 0px 30px;}
+div#booktestdrivemainform div#defaultNewForm .checkbox label {padding-left: 30px;}
+/*Book-a-test-drive*/
+
+
+/*Book a showroom visit*/
+div#defaultNewForm .bookTestDrive.bookTest .checkbox label:before {display: none;}
+div#defaultNewForm .bookTestDrive.bookTest .checkbox label:after {display: none !important;}
+div#defaultNewForm .bookTestDrive.bookTest .checkbox input#btdcheckbox {display: inline-block; margin: 0; z-index: 999999; width: 19px; height: 19px; left: 0 !important;}
+div#defaultNewForm .bookTestDrive.bookTest {padding: 60px 0px 30px;}
+form.testDrive .checkbox label {padding-left: 30px;}
+/*Book a showroom visit*/
+
+/*Invester Contact*/
+.genericWrapper .main-header h2 {font-family: Lato Bold,sans-serif; font-size: 24px; text-align: center; color: #171717; padding: 0; margin: 20px 0 0;}
+.genericWrapper img.bg-image {z-index: -1;}
+/*Invester Contact*/
+
+/*Corporate-career*/
+section#whyworkwithus section#join-us {padding-bottom: 100px;}
+/*Corporate-career*/
+
+/*Meet The People*/
+section.meet-out-people.theme-slick-arrow .peopleContainer .container {width: 1024px;}
+section.fraudulent-recruitment .fraudulent-content-wrapper .container {width: 1024px;}
+.corp-reach-container .corp-reach .container {width: 1024px;}
+section.business-opp .partsSupplyContainer .container {width: 1024px;}
+/*Meet The People*/
+
+/*Footer-contact*/
+.foter-mail-cno a {color: #fff; text-decoration: none;}
+.foter-mail-cno {margin-bottom: 15px; padding-right: 15px;}
+.foter-mail-cno a h3 {margin-bottom: 15px;}
+/*Footer-contact*/
+
+/*Book-showroom-visit*/
+button#service_continuebtn {display: inline-block; float: left; border: solid 1px #ccc; padding: 10px 25px; margin-bottom: 20px; text-transform: uppercase; font-weight: 600; background: #000; color: #fff;}
+/*Book-showroom-visit*/
+
+/*Ertiga Red*/
+body.ertiga .generic-hero .generic-slider .items .mediacontent.vcenter {top: 150px;}
+/*Ertiga Red*/
+
+/*DzireBlue*/
+body.dzireblue .custom-prise-select-city {top: 475px !important; left: 4% !important; width: 40% !important;}
+/*DzireBlue*/
+
+/*Price-List*/
+form.mobile-validation select {background: none;}
+/*Price-List*/
+
+/*Exchange*/
+.OptionExchangeCar img {margin: 0 auto;}
+/*Exchange*/
+
+/*Arena-footer-disclaimer*/
+ p.disclaimer-paragraph {color: #fff !important; font-size: 12px; line-height: 18px; float: left; width: 100%; margin-bottom: 0px; text-align: left;}
+/*Arena-footer-disclaimer*/
+
+
+/* PR */
+.wrapper .left img {max-width: 100%;}
+/* PR */
+
+
+/* FinanceFMP */
+div#verifyPopup1 {text-align: center;}
+.smart-finance-box {left: auto !important;}
+/* FinanceFMP */
+
+/*Login*/
+input#phone::-webkit-input-placeholder {
+   text-transform: capitalize;
+}
+
+input#phone:-moz-placeholder { 
+   text-transform: capitalize;
+}
+
+input#phone::-moz-placeholder {  
+   text-transform: capitalize;
+}
+
+input#phone:-ms-input-placeholder { 
+   text-transform: capitalize;
+}
+/*Login*/
+
+
+/*BTD-checkbox*/
+div#booktestdrivemainform .checkbox input#btdcheckbox {width: 18px !important;}
+.bookTestDrive.bookTest .checkbox input#btdcheckbox {width: 19px !important;}
+.bookTestDrive.bookTest .checkbox label {font-size: 13px;}
+header .utilityWrapper .utilityItems li.phone a {pointer-events: auto !important;}
+/*BTD-checkbox*/
+
+.subnav .col p {font-weight: 500;}
+/*Brand-specifi*/
+.spcification .tab-contents .display-table .display-cell h4 {font-weight: 600;}
+/* Home-page-tiles */
+.hero .outer .column.centerColumn .innerContent .btns {border: 1px solid #fff;}
+.gallerycomponent .gallery-header p {font-family: "Lato Black",sans-serif !important; font-weight: 600;}
+.gallerycomponent .gallery-header h2 { font-family: "Lato Black",sans-serif; font-weight: 600;}
+section.genericWrapper .main-header.container h2  { font-family: "Lato Black",sans-serif; font-weight: 600;}
+section.genericWrapper .main-header.container h3 { font-family: "Lato Black",sans-serif; font-weight: 600;}
+.genericWrapper .our-values-wrapper {padding-bottom: 350px;}
+
+
+/*SCStage*/
+.technoPageAdvan.smartplay-wrapper {float: left; margin-top: 30px;}
+/*SCStage*/
+
+/*Service*/
+body.arenaservice section.about_section .appointment_block.appointment_block-img a#arena-book-now {background: #d61f26; border-radius: 0; color: #fff; padding: 10px 20px;}
+body.arenaservice section.about_section .appointment_block.appointment_block-img a#arena-book-now:hover {background-color: #164b91; color: #fff;}
+body.arenaservice section#Locate_section a.btn.locate-now.getiframedetails{background: #d61f26; border-radius: 0; color: #fff; padding: 0; font-size: 16px; text-transform: uppercase;}
+body.arenaservice section#Locate_section a.btn.locate-now.getiframedetails:hover {background-color: #164b91; color: #fff;}
+body.arenaservice .calc_block button.btn.calculatorBtn {background: #d61f26; color: #fff; border-radius: 0; padding: 8px 30px;}
+body.arenaservice section.sp_section a#arena-ed {background: #d61f26; border-radius: 0; color: #fff; padding: 10px 20px;}
+body.arenaservice section.sp_section a#arena-ed:hover {background-color: #164b91; color: #fff;}
+body.arenaservice section.sp_section a#arena-call-us {background: #d61f26; border-radius: 0; color: #fff; padding: 10px 20px;}
+body.arenaservice section.sp_section a#arena-call-us:hover {background-color: #164b91; color: #fff;}
+body.arenaservice section.sp_section a#arena-car-care {background: #d61f26; border-radius: 0; color: #fff; padding: 10px 20px;}
+body.arenaservice section.sp_section a#arena-car-care:hover {background-color: #164b91; color: #fff;}
+body.arenaservice ul.avail-service-listing li {margin-bottom: 5px; margin-right: 0; margin-top: 5px;}
+
+/*Celerio*/
+body.celerio section#specificationsfeatures .tab-contents {overflow: hidden !important;}
+body.celerio section#performance {display: none;}
+
+/*EEco*/
+body.eeco section#specificationsfeatures .tab-contents {overflow: hidden !important;}
+body.eeco section#performance {display: none;}
+
+
+/*Login*/
+#defaultModal .verifyBox .blueButton a.headerLogin {color: #fff;}
+#defaultModal .verifyBox .blueButton a.headerLogin:hover{color: #2d3393; text-decoration: none;}
+form#new-registration input#otp {visibility: hidden; position: absolute; top: 0; width: auto;}
+form#new-registration .verifyBox .blueButton {float: left; width: 100%;}
+form#new-registration .verifyBox  label#otp-error {width: 100%; text-align: left; float: left;}
+#defaultModal .right .verifyBox .inputBox .otpNo + .otpNo {margin-left: 9px;}
+#defaultModal .right .verifyBox .inputBox {text-align: center;}
+/*Login*/

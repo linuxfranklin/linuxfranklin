@@ -1,0 +1,532 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k7n0x0');
+  src:  url('fonts/icomoon.eot?k7n0x0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k7n0x0') format('truetype'),
+    url('fonts/icomoon.woff?k7n0x0') format('woff'),
+    url('fonts/icomoon.svg?k7n0x0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Low-cost:before {
+  content: "\e998";
+}
+.icon-spacious-cabin-2:before {
+  content: "\e99e";
+}
+.icon-Comfort:before {
+  content: "\e98b";
+}
+.icon-speed-limit:before {
+  content: "\e996";
+}
+.icon-Engine:before {
+  content: "\e997";
+}
+.icon-CNG:before {
+  content: "\e99c";
+}
+.icon-Airbag:before {
+  content: "\e99d";
+}
+.icon-body-graphics-omni:before {
+  content: "\e986";
+}
+.icon-laminated-windshield-omni:before {
+  content: "\e987";
+}
+.icon-rear-stop-lamp-omni:before {
+  content: "\e988";
+}
+.icon-thermoplastic-bumper-omni:before {
+  content: "\e989";
+}
+.icon-two-tone-upholstery-omni:before {
+  content: "\e98a";
+}
+.icon-msgaIcon:before {
+  content: "\e985";
+  color: #fff;
+}
+.icon-Insurance_1:before {
+  content: "\e984";
+}
+.icon-dual-tone-interior:before {
+  content: "\e982";
+}
+.icon-headrest:before {
+  content: "\e983";
+}
+.icon-edit-record:before {
+  content: "\e981";
+  color: #212121;
+}
+.icon-bell:before {
+  content: "\e943";
+}
+.icon-header-icon:before {
+  content: "\e97f";
+}
+.icon-sortings:before {
+  content: "\e980";
+}
+.icon-celerioxgrill:before {
+  content: "\e942";
+}
+.icon-auto-gear-shift:before {
+  content: "\e97e";
+}
+.icon-features-sporty-bold:before {
+  content: "\e944";
+}
+.icon-features-steering-wheel-2:before {
+  content: "\e945";
+}
+.icon-features-spacious-2:before {
+  content: "\e946";
+}
+.icon-features-seating-1:before {
+  content: "\e961";
+}
+.icon-features-seating-2:before {
+  content: "\e962";
+}
+.icon-features-safety:before {
+  content: "\e963";
+}
+.icon-features-push-start-button:before {
+  content: "\e964";
+}
+.icon-features-parking-sensors:before {
+  content: "\e965";
+}
+.icon-features-interior:before {
+  content: "\e966";
+}
+.icon-features-infotainment-system:before {
+  content: "\e967";
+}
+.icon-features-headlight-2:before {
+  content: "\e968";
+}
+.icon-features-headlight:before {
+  content: "\e976";
+}
+.icon-features-grille:before {
+  content: "\e977";
+}
+.icon-features-fog-lamps:before {
+  content: "\e978";
+}
+.icon-features-engine:before {
+  content: "\e979";
+}
+.icon-features-dynamic:before {
+  content: "\e97a";
+}
+.icon-features-cuise-controls:before {
+  content: "\e97b";
+}
+.icon-features-climate-controls:before {
+  content: "\e97c";
+}
+.icon-features-cico:before {
+  content: "\e97d";
+}
+.icon-mobile-start:before {
+  content: "\e93b";
+}
+.icon-ac-vents:before {
+  content: "\e93c";
+}
+.icon-automatic-transmission:before {
+  content: "\e93d";
+}
+.icon-cico-style:before {
+  content: "\e93e";
+}
+.icon-flexi-seating:before {
+  content: "\e93f";
+}
+.icon-hybrid-engine:before {
+  content: "\e940";
+}
+.icon-xpan-design:before {
+  content: "\e941";
+  color: #000;
+}
+.icon-alloy-version:before {
+  content: "\e936";
+}
+.icon-orvm-indicator:before {
+  content: "\e937";
+}
+.icon-smart-play:before {
+  content: "\e938";
+}
+.icon-split-seat:before {
+  content: "\e939";
+}
+.icon-tilt-steering:before {
+  content: "\e93a";
+}
+.icon-mobile-menu:before {
+  content: "\e92a";
+}
+.icon-alloy:before {
+  content: "\e92b";
+}
+.icon-floating-roof:before {
+  content: "\e92c";
+}
+.icon-gear-shift:before {
+  content: "\e92d";
+}
+.icon-headlamp:before {
+  content: "\e92e";
+}
+.icon-key-less:before {
+  content: "\e92f";
+}
+.icon-k-series:before {
+  content: "\e930";
+}
+.icon-mood-lights:before {
+  content: "\e931";
+}
+.icon-muscular-design:before {
+  content: "\e932";
+}
+.icon-push-start:before {
+  content: "\e933";
+}
+.icon-reverse-parking:before {
+  content: "\e934";
+}
+.icon-steering:before {
+  content: "\e935";
+}
+.icon-locate:before {
+  content: "\e926";
+}
+.icon-cart:before {
+  content: "\e927";
+}
+.icon-notepad:before {
+  content: "\e928";
+}
+.icon-rupee:before {
+  content: "\e929";
+}
+.icon-footer_call:before {
+  content: "\e947";
+}
+.icon-footer_email:before {
+  content: "\e948";
+}
+.icon-footer_fb .path1:before {
+  content: "\e949";
+  color: rgb(0, 0, 0);
+}
+.icon-footer_fb .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-footer_twitter .path1:before {
+  content: "\e94b";
+  color: rgb(0, 0, 0);
+}
+.icon-footer_twitter .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-general_360:before {
+  content: "\e94d";
+}
+.icon-general_delete:before {
+  content: "\e94e";
+}
+.icon-general_duration:before {
+  content: "\e94f";
+}
+.icon-general_edit:before {
+  content: "\e950";
+}
+.icon-general_features_scroll .path1:before {
+  content: "\e951";
+  color: rgb(0, 0, 0);
+}
+.icon-general_features_scroll .path2:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-general_info:before {
+  content: "\e953";
+}
+.icon-general_member:before {
+  content: "\e954";
+}
+.icon-general_navigate_normal .path1:before {
+  content: "\e955";
+  color: rgb(0, 0, 0);
+}
+.icon-general_navigate_normal .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-general_navigate_pressed .path1:before {
+  content: "\e957";
+  color: rgb(33, 33, 33);
+}
+.icon-general_navigate_pressed .path2:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-general_overflow:before {
+  content: "\e959";
+}
+.icon-general_print:before {
+  content: "\e95a";
+}
+.icon-general_rate:before {
+  content: "\e95b";
+}
+.icon-general_rate_active:before {
+  content: "\e95c";
+}
+.icon-general_status_failed:before {
+  content: "\e95d";
+}
+.icon-general_videos:before {
+  content: "\e95e";
+}
+.icon-map_grid_view:before {
+  content: "\e95f";
+}
+.icon-map_map_view:before {
+  content: "\e960";
+}
+.icon-nav_menu:before {
+  content: "\e969";
+}
+.icon-player_collapse:before {
+  content: "\e96a";
+}
+.icon-player_existing_pause .path1:before {
+  content: "\e96b";
+  color: rgb(16, 93, 169);
+}
+.icon-player_existing_pause .path2:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-player_existing_pause .path3:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-player_existing_play .path1:before {
+  content: "\e96e";
+  color: rgb(16, 93, 169);
+}
+.icon-player_existing_play .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-player_expand:before {
+  content: "\e970";
+}
+.icon-player_ms_pause .path1:before {
+  content: "\e971";
+  color: rgb(214, 31, 38);
+}
+.icon-player_ms_pause .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-player_ms_pause .path3:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-player_ms_play .path1:before {
+  content: "\e974";
+  color: rgb(214, 31, 38);
+}
+.icon-player_ms_play .path2:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-social_facebook:before {
+  content: "\e98c";
+  color: #3b5998;
+}
+.icon-social_instagram:before {
+  content: "\e98d";
+  color: #458eff;
+}
+.icon-social_twitter:before {
+  content: "\e98e";
+  color: #2aa9e0;
+}
+.icon-tiles_globe:before {
+  content: "\e98f";
+}
+.icon-tiles_investors:before {
+  content: "\e990";
+}
+.icon-tiles_investors_performance:before {
+  content: "\e991";
+}
+.icon-tiles_legacy:before {
+  content: "\e992";
+}
+.icon-tiles_parts:before {
+  content: "\e993";
+}
+.icon-tiles_quote:before {
+  content: "\e994";
+}
+.icon-tiles_write_to_us:before {
+  content: "\e995";
+}
+.icon-award:before {
+  content: "\e921";
+}
+.icon-download:before {
+  content: "\e922";
+}
+.icon-email:before {
+  content: "\e923";
+}
+.icon-filter:before {
+  content: "\e924";
+}
+.icon-pdf:before {
+  content: "\e925";
+}
+.icon-floating-menu:before {
+  content: "\e920";
+}
+.icon-location:before {
+  content: "\e91d";
+}
+.icon-date:before {
+  content: "\e91e";
+}
+.icon-success:before {
+  content: "\e91f";
+}
+.icon-appointment:before {
+  content: "\e914";
+}
+.icon-compare:before {
+  content: "\e915";
+}
+.icon-contact:before {
+  content: "\e916";
+}
+.icon-dealer:before {
+  content: "\e917";
+}
+.icon-ebook:before {
+  content: "\e918";
+}
+.icon-inquiry:before {
+  content: "\e919";
+}
+.icon-price:before {
+  content: "\e91a";
+}
+.icon-showroom:before {
+  content: "\e91b";
+}
+.icon-test-drive:before {
+  content: "\e91c";
+}
+.icon-airbag:before {
+  content: "\e910";
+}
+.icon-interiors:before {
+  content: "\e911";
+}
+.icon-lamp:before {
+  content: "\e912";
+}
+.icon-stereo:before {
+  content: "\e913";
+}
+.icon-ellipse:before {
+  content: "\e90d";
+  color: #4e555f;
+}
+.icon-play:before {
+  content: "\e90e";
+}
+.icon-social:before {
+  content: "\e90f";
+}
+.icon-close-bg:before {
+  content: "\e90b";
+}
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-large-arrow:before {
+  content: "\e904";
+}
+.icon-down-arrow:before {
+  content: "\e905";
+}
+.icon-left-arrow:before {
+  content: "\e906";
+}
+.icon-right-arrow:before {
+  content: "\e907";
+}
+.icon-up-arrow:before {
+  content: "\e908";
+}
+.icon-minus:before {
+  content: "\e909";
+}
+.icon-plus:before {
+  content: "\e90a";
+}
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e901";
+}
+.icon-menu:before {
+  content: "\e902";
+}
+.icon-user:before {
+  content: "\e903";
+}

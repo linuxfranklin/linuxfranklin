@@ -1,0 +1,139 @@
+var list = [];
+$(document).ready(function () {
+    $(".tab-nav ul li:nth-child(5)").attr('style', 'display:none;');
+});
+(function () {
+
+    $('.channel-section-container').each(function(){
+        if($(this).find('.item').length == 3){
+            $(this).append("<div class='item emptyitems' data-amount='0'><a href='#''></a></div>");
+        }else if($(this).find('.item').length == 2){
+            $(this).prepend("<div class='item emptyitems' data-amount='0'><a href='#''></a></div>");
+            $(this).append("<div class='item emptyitems' data-amount='0'><a href='#''></a></div>");
+        }
+    })
+
+    $('.channel-section-wrapper .buttonwrapper').append('<p class="assistance col-lg-3 hide" style="margin:0 auto; float:none;">This product is not applicable for E-booking, please contact your nearest Maruti Suzuki Dealership for further assistance</p>')
+
+    
+    $(".all-slider").slick({
+        infinite : true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 3,
+        slideToScroll: 1,
+        arrows: false,
+        dots: false,
+        swipe : false,
+        nextArrow: '.next-button-slick',
+        prevArrow: '.prev-button-slick',
+        responsive: [{
+        	breakpoint: 997,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            },
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: false,
+                centerPadding: '0px',
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }]
+    }).on('afterChange', function(event, slick, currentSlide, nextSlide){
+           
+            updatebutton();
+
+        });
+
+
+        if($('[name="selectedModel"]').val() !== undefined && $('[name="selectedModel"]').val() !== ""){
+            var val = $('[name="selectedModel"]').val();
+            var itemindx = $('.items.current').find('[data-model="'+val+'"]')[0];
+            var indx = $(itemindx).data('slick-index');
+            $('.items.current').find('.all-slider').slick('slickGoTo', indx);
+
+        }else{
+            $(".all-slider").slick('slickGoTo', 1);
+        }
+
+    $('.prev-button-slick').click(function() {
+        // $(".all-slider").slick('slickPrev');
+        if($('.items.current').find(".slick-current.slick-active.slick-center").prev().hasClass('emptyitems')){
+            // $('.prev-button-slick').css('pointer-events', 'none');
+            // $('.next-button-slick').css('pointer-events', 'auto');
+          }else{
+            $(".items.current .all-slider").slick('slickPrev');
+          }
+
+    });
+    $('.next-button-slick').click(function() {
+        // $(".all-slider").slick('slickNext');
+
+        if($('.items.current').find(".slick-current.slick-active.slick-center").next().hasClass('emptyitems')){
+            // $('.next-button-slick').css('pointer-events', 'none');
+            // $('.prev-button-slick').css('pointer-events', 'auto');
+          }else{
+            $(".items.current .all-slider").slick('slickNext');
+          }
+
+    });
+
+})();
+
+/** TAB STARTS HERE **/
+
+ function updatebutton(){
+        if($('.channel-section-wrapper .items.current').find('.item.slick-slide.slick-current').data('amount') == 0){
+            $('.channel-section-wrapper .buttonwrapper').find('.continue').removeClass('btns').hide();
+            $('.channel-section-wrapper .buttonwrapper').find('.assistance').removeClass('hide');
+
+        }else{
+            $('.channel-section-wrapper .buttonwrapper').find('.assistance').addClass('hide');
+            $('.channel-section-wrapper .buttonwrapper').find('.continue').addClass('btns').show();
+
+        }
+    }
+    
+(function() {
+    $('ul.tabs li a').on('click', function(e) {
+        e.preventDefault();
+        var tab_id = $(this).attr('href');
+
+        $('ul.tabs li').removeClass('current');
+        $('.items').removeClass('current');
+
+        $(this).closest('li').addClass('current');
+        $("#" + tab_id).addClass('current');
+        $('.items.current .all-slider').slick('slickGoTo', 1);
+        // $('.items.current .all-slider').slick('setPosition');
+        $(".items.current .all-slider").slick('refresh');
+
+        if($(window).width() < 768 && $('.items.current .all-slider').find('.item').length == 1){
+            $('.items.current .all-slider').find('.slick-track').css('transform', 'translate3d(0,0,0)');
+         }
+
+         updatebutton();
+    })
+
+
+    if($(".ebook-dealer-model .ebook-wrapper.disabled-container,.channel-section-wrapper.disabled-container").length > 0){    
+        $(".disabled-container").each(function(){       
+            $(this).css("pointer-events","none");
+            $(this).attr("disabled","true");
+        });    
+    }else{
+        //
+    }
+})();

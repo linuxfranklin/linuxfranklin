@@ -1,0 +1,83 @@
+!function (t, e) { if (void 0 === e[t]) { e[t] = function () { e[t].clients.push(this), this._init = [Array.prototype.slice.call(arguments)] }, e[t].clients = []; for (var r = function (t) { return function () { return this["_" + t] = this["_" + t] || [], this["_" + t].push(Array.prototype.slice.call(arguments)), this } }, s = ["blockEventsaddRecord", "setSignedModeblockEvents", "fetchServerCookie", "unblockEventsfetchGlobalID", "setSignedModefetchUserSegments", "setAnonymousMode", "resetUUID", "addRecordready", "fetchGlobalIDsetSignedMode", "fetchUserSegmentssetAnonymousMode", "set", "trackEvent", "trackPageview", "trackClicks", "readyunblockEvents"], n = 0; n < s.length; n++) { var oc = s[n]; e[t].prototype[oc] = r(oc) } var co = document.createElement("script"); co.type = "text/javascript", co.async = !0, co.src = ("https:" === document.location.protocol ? "https:" : "http:") + "//cdn.treasuredata.com/sdk/2.2/td.min.js"; var ia = document.getElementsByTagName("script")[0]; ia.parentNode.insertBefore(co, ia) } }("Treasure", this);
+
+var account_id = 'aws-us-3867'; //Use your account id
+
+var createImage = function (url) {
+
+var el = document.createElement('img');
+
+el.src = (('https:' === document.location.protocol) ? 'https://' : 'http://') + url;
+
+el.width = 1;
+
+el.height = 1;
+
+el.style.display = 'none';
+
+document.body.appendChild(el);
+
+};
+
+var googleSyncCallback = function () {
+
+var gidsync_url =
+
+'cm.g.doubleclick.net/pixel?google_nid=treasuredata_dmp&google_cm&td_write_key=8151/fcd628065149d648b80f11448b4083528c0d8a91&td_global_id=td_global_id',
+
+params = '&td_client_id=' + td.client.track.uuid + '&td_host=' + document.location.host + '&account=' +
+
+account_id;
+
+createImage(gidsync_url + params);
+
+}
+
+var td = new Treasure({
+
+database: 'msil_src_prd',
+
+writeKey: '10453/be37ccabb6c444301256c07406c8586de8b0b415 ',
+
+host: 'in.treasuredata.com',
+
+startInSignedMode: true,
+
+sscDomain: 'www.marutisuzuki.com', // ex) example.com
+
+sscServer: 'ssc.marutisuzuki.com', // ex) ssc.example.com
+
+useServerSideCookie: true
+
+});
+
+td.set('$global', 'td_global_id', 'td_global_id');
+
+td.fetchServerCookie(successCallback, errorCallback);
+
+function fireEvents() {
+
+td.trackPageview('pageview', googleSyncCallback);
+
+}
+
+function successCallback(result) {
+
+// result === Server Side Cookie
+
+td.set('$global', {
+
+td_ssc_id: result
+
+});
+
+fireEvents();
+
+}
+
+function errorCallback() {
+
+// Track events, even if the server-side cookie does not work
+
+fireEvents();
+
+}

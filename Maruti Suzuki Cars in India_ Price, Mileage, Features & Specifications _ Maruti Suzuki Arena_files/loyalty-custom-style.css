@@ -1,0 +1,323 @@
+*{font-family:'Lato',sans-serif}
+h5.demo-headline{font-size:18px;margin:0;line-height:48px;font-weight:500;text-align:center}
+.container.loyalty-container{max-width:1024px}
+.loyalty-tab{display:block;width:100%;float:left;margin:0 auto 15px;border:solid 1px #8c8b8b;margin-top:25px;overflow:hidden}
+.layout-wrapper{overflow:hidden;display:block;width:100%;padding:5px 0;text-align:center;position:relative;float:left;margin-top:10px}
+.layout-wrapper button{float:none;border:none;outline:none;cursor:pointer;transition:.3s;background:none;margin:0 4px;font-size:14px;font-weight:600}
+.layout-wrapper .layout-tablinks.active:after{content:" ";display:block;border-top:solid 3px #e84210;width:20px;margin:5px auto}
+.loyalty-tab-content{display:none;padding:0 12px;border-top:none;float:left;width:100%;margin-top:0;padding-bottom:15px}
+.progress-bar-wrapper{width:75%;margin:0 auto;position:relative;float:none;clear:both}
+.progress{margin:0 auto 15px;margin-top:15px;height:9px;background:#ccc}
+.theme-base-color{background:#164b91;height:9px}
+.progress-bar-wrapper:after{content:" ";width:20px;height:20px;left:0;position:absolute;background:#164b91;top:30px;border-radius:25px}
+.progress-bar-wrapper:before{content:" ";width:20px;height:20px;right:0;position:absolute;background:#fdba2c;top:30px;border-radius:25px}
+ul.progress-bar-headline{padding:0;margin:0;display:block;list-style:none}
+ul.progress-bar-headline li{font-size:15px;font-weight:600;text-transform:capitalize;display:inline-block}
+ul.progress-bar-headline li:last-child{float:right}
+ul.point-information{padding:0;margin:0;display:block;list-style:none;text-align:center}
+ul.point-information li{font-size:14px;font-weight:600;text-transform:capitalize;display:inline-block}
+ul.point-information li:last-child{float:right}
+ul.point-information li:first-child{float:left}
+.expire-block-dashboard{display:block;text-align:center;margin:40px 0 10px;float:left;width:100%}
+.box-one.member-box{background:none;box-shadow:none;padding-top:15px}
+.box-one.availabale-points{margin-right:70px}
+.box-one{background:#ebebea;display:inline-block;text-align:center;min-width:160px;margin:0 5px;vertical-align:top;min-height:130px;padding-top:35px;-webkit-box-shadow:0 8px 6px -6px #696969;-moz-box-shadow:0 8px 6px -6px #696969;box-shadow:0 8px 6px -6px #696969}
+.box-one p{margin:0;font-weight:600;font-size:13px;text-transform:capitalize}
+.box-one span{margin:0}
+.box-one.availabale-points span{color:#04b414;font-weight:600;text-transform:uppercase;font-size:21px}
+.box-one.expired-points span{color:#e5a804;font-weight:600;text-transform:uppercase;font-size:21px}
+.theme-font-base-color{color:#164b91}
+p.discover-more-offer{text-align:center;margin:15px 0;float:left;width:100%}
+p.discover-more-offer a{text-decoration:none;font-weight:600;font-style:italic;font-size:16px}
+.accordian-block{display:block;width:75%;margin:0 auto;clear:both;float:initial}
+.accordion{width:100%;background:#FFF;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:0;float:left;display:block}
+ul.submenu{padding:0;margin:0}
+.accordion .link{cursor:pointer;display:block;padding:10px 10px 10px 40px;color:#000;font-size:16px;font-weight:700;border-bottom:1px solid #CCC;position:relative;-webkit-transition:all .4s ease;-o-transition:all .4s ease;transition:all .4s ease;background:#ebebea}
+ul.accordion{list-style-type:none}
+.accordion li:last-child .link{border-bottom:0}
+.accordion li .fa{position:absolute;top:10px;left:9px;font-size:25px;color:#164b91;-webkit-transition:all .4s ease;-o-transition:all .4s ease;transition:all .4s ease}
+.accordion li i.fa-chevron-down{right:12px;left:auto;font-size:16px}
+.accordion li.open .link{color:#164b91}
+.accordion li.open i{color:#164b91}
+.accordion li.open i.fa-chevron-down{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.submenu{display:none;background:#fff;padding:10px 15px;border:solid 1px #d2d2cf;border-top:none;float:left;width:100%}
+.submenu li{border-bottom:1px solid #4b4a5e}
+.submenu a{display:block;text-decoration:none;color:#d9d9d9;padding:12px;padding-left:42px;-webkit-transition:all .25s ease;-o-transition:all .25s ease;transition:all .25s ease}
+.submenu a:hover{background:#b63b4d;color:#FFF}
+ul.accordion li .link i.minus-tab{display:none}
+ul.accordion li .link span.view-all-tabs{float:right;font-weight:400}
+ul.accordion li.open .link i.plus-tab{display:none}
+ul.accordion li.open .link i.minus-tab{display:block}
+ul.accordion li{margin-bottom:20px;float:left;width:100%}
+.inner-content-loyalty{background:#ebebea;padding:20px 15px;margin:10px 0;cursor:pointer;float:left;width:100%;position:relative}
+.left-loyalty-icon{float:left;margin-right:15px;width:15%;border-right:solid 1px #164b91}
+.right-loyalty-content{display:inline-block;width:81.6%;float:left}
+.right-loyalty-content p{margin:0;font-weight:600;font-size:17px;text-transform:capitalize;margin-top:10px}
+.loyalty-model .modal-header{background:#2a3994;color:#fff;min-height:111px;text-transform:capitalize}
+.loyalty-model .modal-header button.close{color:#fff;opacity:1;position:absolute;top:10px;right:10px}
+.loyalty-model .modal-body{text-align:center;padding:5px 0}
+.loyalty-model .modal-body span.model-image{display:block;margin:15px 0}
+ul.date-block-earned{display:block;margin:0;overflow:hidden;float:left;width:100%;background:#164b91;padding:5px;margin-bottom:15px}
+ul.date-block-earned li{display:inline-block;float:left;width:auto;margin-bottom:0;border:none}
+.date-block-earned h3{font-size:16px;font-weight:600}
+ul.date-block-earned li:first-child{color:#fff}
+ul.date-block-earned li:first-child span{margin-right:15px}
+ul.date-block-earned li:nth-child(2){float:right}
+ul.date-block-earned li:nth-child(3){float:right}
+ul.date-block-earned input.to-design{width:200px;border:none;background:#fff;line-height:35px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:5px}
+ul.date-block-earned input.to-design:focus{outline:none}
+ul.date-block-earned input.from-design{width:200px;border:none;background:#fff;line-height:35px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:5px}
+ul.date-block-earned input.from-design:focus{outline:none}
+ul.date-block-earned li span.date-icon{display:inline-block;float:left;margin-right:10px}
+.loyalty-warned-table{margin:15px 0;float:left;width:100%}
+.loyalty-warned-table table thead tr th{font-size:13px;text-transform:capitalize;background:#ccc;color:#000;font-weight:600}
+.loyalty-warned-table table tbody tr td{font-size:13px;text-transform:capitalize;font-weight:400}
+.form-container .row{margin-bottom:15px}
+.form-container{display:block;padding:10px}
+.form-container input.loyalty-form-element{border-radius:0;box-shadow:none;border:1px solid #ccc;font-size:13px;color:#666;height:45px;background:none}
+button.btns.loyalty-submit{background:#144484;border:none;color:#fff;padding:7px 30px;float:left;margin:35px 0 0;text-transform:uppercase;cursor:pointer}
+.banner-loyalty{width:100%;height:400px;background:#ccc}
+.loyalty-content p{text-align:center;line-height:30px;text-transform:capitalize;color:#000;padding:15px 30px}
+.loyalty-content button{margin:60px auto 20px;display:inherit;background:#fff;border:none;color:#0f5da8;text-transform:uppercase;padding:15px 45px;font-weight:700}
+label.form-loyalty-label{float:left}
+.badges-block{display:block;float:left;width:31%;margin:0 1%;text-align:center}
+span.badges-icon-bloxk img{margin:0 auto}
+.badges-card{display:inline-block;float:left;width:23%;text-align:center;background:#ebebeb;position:relative;height:275px;margin:0 1%;cursor:pointer}
+.theme-base-card{display:block;background:#164b91;height:100px;position:relative}
+span.badges-icon-bloxk{display:block;position:absolute;top:25px;left:0;right:0}
+.badges-text h3{text-align:center;font-size:14px;font-weight:600;display:block;width:100%}
+.badges-text p{text-align:center;font-size:14px;font-weight:600;display:block;width:100%;font-weight:normal}
+.badges-text{position:absolute;bottom:0;width:100%}
+.Experiential-tab .right-loyalty-content span{display:block;margin:5px 0 5px 35px}
+button.Experiential-button{background:#164b91;color:#fff;border:none;float:left;margin:21px 13px 0;padding:10px 55px;text-transform:uppercase;border-radius:2px}
+button.refrerral-button{background:#164b91;color:#fff;border:none;float:initial;margin:0 auto;padding:10px 55px;text-transform:uppercase;border-radius:1px;display:block;margin-bottom:30px;margin-top:30px}
+.inner-content-loyalty.Experiential-tab .left-loyalty-icon{height:170px}
+.badges-block.color-greyscale .badges-card span.badges-icon-bloxk img{-webkit-filter:grayscale(100%);filter:grayscale(100%);margin:0 auto}
+.badges-block.color-greyscale .badges-card .theme-base-card{background:#696969}
+.mobile-popup-design span.model-image img{display:inline-block}
+.mobile-popup-design .modal-title{margin:0;line-height:1.42857143;width:100%;text-align:center}
+input.referral-form-input{background:#ebebeb;border:none;border-radius:0;font-size:13px;height:45px;margin-bottom:15px}
+select.refreeal-select-state{width:100%;background:none;border:solid 1px #ccc;height:45px;margin-bottom:5px;font-size:13px;text-indent:10px;color:#666}
+.support{text-align:center;margin:15px 0}
+.loyalty-tab-contents{display:none;padding:6px 12px;border:1px solid #ccc;border-top:none;float:left;width:100%;margin-top:30px}
+.tab-tiers{overflow:hidden;text-align:center;position:relative}
+.tab-tiers button{float:none;border:none;outline:none;cursor:pointer;padding:10px 40px;transition:.3s;color:#000;background:#ccc;margin:0 15px;font-size:14px;font-weight:500;position:relative;margin-bottom:15px}
+.tab-tiers button:hover{background-color:#ddd}
+.tab-tiers button.active{background-color:#164b91;color:#fff}
+.tabcontent-tiers{display:none;padding:25px 0;float:left;width:100%}
+button.tablinks-tiers.active:after{content:'';position:absolute;top:auto;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid #164b91;bottom:-9px;z-index:999;left:0;right:0;margin:0 auto}
+ul.accordion.unactive .left-loyalty-icon img{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+.tier-benefits.intro{display:block!important}
+.showblock{display:block!important}
+.design-process-section .text-align-center{line-height:25px;margin-bottom:12px}
+.design-process-content{border:none;position:relative;padding:10px;float:left;width:100%}
+.design-process-content .accordian-block{width:100%}
+.process-model{list-style:none;padding:0;position:relative;max-width:100%;border:none;z-index:0;text-align:center;margin-bottom:50px;width:100%}
+.process-model li::after{background:#e5e5e5 none repeat scroll 0 0;bottom:0;content:"";display:block;height:4px;margin:0 auto;position:absolute;right:-160px;top:12px;width:100%;z-index:-1}
+.process-model li.visited::after{background:#164691}
+.process-model li:last-child::after{width:0}
+.process-model li{display:inline-block;width:48%;text-align:center;float:none}
+.nav-tabs.process-model > li.active > a,.nav-tabs.process-model > li.active > a:hover,.nav-tabs.process-model > li.active > a:focus,.process-model li a:hover,.process-model li a:focus{border:none;background:transparent}
+.process-model li a{padding:0;border:none;color:#606060}
+.process-model li.active,.process-model li.visited{color:#164b91}
+.process-model li.active a,.process-model li.active a:hover,.process-model li.active a:focus,.process-model li.visited a,.process-model li.visited a:hover,.process-model li.visited a:focus{color:#164b91}
+.process-model li.active p,.process-model li.visited p{font-weight:600}
+.process-model li i{display:block;height:68px;width:68px;text-align:center;margin:0 auto;background:#f5f6f7;border:2px solid #e5e5e5;line-height:65px;font-size:30px;border-radius:50%}
+.process-model li.active i,.process-model li.visited i{background:#fff;border-color:#164b91}
+.process-model li p{font-size:14px;margin-top:11px}
+.process-model.contact-us-tab li.visited a,.process-model.contact-us-tab li.visited p{color:#606060!important;font-weight:400}
+.process-model.contact-us-tab li::after{display:none}
+.process-model.contact-us-tab li.visited i{border-color:#e5e5e5}
+.process-model li.visited.first-active a span.tier-list-circle{background:#164691!important}
+span.tier-list-circle{width:25px;height:25px;background:#ccc;display:inline-block;border-radius:50%;border:solid 2px #164691}
+.process-model li.active a span.tier-list-circle{background:#164691}
+.process-model li.visited a span.tier-list-circle{background:#164691!important}
+.process-model li.active a span.tier-list-circle{background-image:url(../images/active-tab-button.png)}
+.last-active a span.tier-list-circle{background:#fdba2c}
+span.tab-name{position:absolute;bottom:-17px;left:0;right:20px;text-transform:uppercase;font-weight:600}
+h2.dealer-detail-tittle{font-size:15px;font-weight:600;text-transform:capitalize;border-bottom:solid 2px #000;padding-bottom:5px;margin-bottom:15px;margin-top:10px}
+.showblock{display:block!important}
+p.claim-badges-times{font-size:13px;color:#164b91;font-weight:600}
+.faq-block{width:80%;margin:0 auto;float:none;clear:both}
+.faq-block h3{font-size:16px;font-weight:600;margin:25px 0 10px}
+table#Earned thead tr th:last-child{display:none}
+table#Earned tbody tr td:last-child{display:none}
+div#Earned_length{display:none}
+div#expired_length{display:none}
+div#expired_filter{display:none}
+div#Earned_filter{display:none}
+table#Redeemed thead tr th:last-child{display:none}
+table#Redeemed tbody tr td:last-child{display:none}
+button#selectme{background:#164b91;border:none;color:#fff;padding:10px 35px;margin-bottom:15px;text-transform:uppercase}
+.badges-card.color-greyscale .badges-icon-bloxk img{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+.badges-card.color-greyscale .theme-base-card{background:#696969}
+.enrollment-form-design .modal-dialog{width:60%}
+.enrollment-form-design .loyalty-model .modal-header{min-height:auto}
+.enrollment-form-design .loyalty-model .modal-body{text-align:center;padding:35px}
+.enrollment-form-design label.form-loyalty-label{float:left;text-transform:uppercase;margin-bottom:10px;display:block}
+.enrollment-form-design .form-container input.loyalty-form-element{border-radius:0;box-shadow:none;border:1px solid #ccc;font-size:13px;color:#666;height:45px;background:none;margin-bottom:5px}
+input.enrolled-continue{background:#164b91;border:none;color:#fff;padding:10px 25px;text-transform:uppercase;margin:15px 0 0}
+h3.enrolled-continue-tittle{font-size:19PX;line-height:28px;text-transform:capitalize}
+p#loyaltyNumber{color:#164b91;font-weight:700;margin-bottom:0;margin-top:15px}
+h2.dealer-detail-tittle{font-size:15px;font-weight:600;text-transform:capitalize;border-bottom:solid 2px #000;padding-bottom:5px;margin-bottom:15px;margin-top:10px}
+span.cta-ancor{display:block;float:right;position:absolute;right:10px;top:auto;bottom:10px}
+table#Earned{width:100%!important}
+table#Redeemed{width:100%!important}
+div#Redeemed_length{display:none}
+div#Redeemed_filter{display:none}
+ul.process-model li a:after{display:none!important}
+span.claim-button{background:#164b91;color:#fff;padding:10px 15px;display:block;width:150px;margin:25px auto auto}
+p.tnc{float:right;display:block;clear:both;font-size:13px;color:#666;text-transform:capitalize;font-weight:400}
+.loyalty-content{position:relative}
+.loyaltyienrollment-image img{max-width:100%;width:100%}
+.loyalty-content button{position:absolute;top:auto;bottom:10%;left:0;right:0}
+.left-text-name{display:inline-block;float:left;width:50%;text-align:left}
+.right-text-number{display:inline-block;float:left;width:50%;text-align:right}
+.left-text-name > h2{font-size:18px!important}
+.left-text-name ul li{list-style-type:none;display:inline-block}
+.right-text-number h2{font-size:18px!important}
+.customer-menu{float:left;width:100%;margin:0!important}
+.transaction-history-design{width:80%;margin:0 auto}
+.right-loyalty-content.Experiential-design-text h3:first-child{display:block;font-size:16px;font-weight:600;margin-bottom:0;text-transform:capitalize}
+h3.experiential-upcomming-title{display:block;font-size:16px;font-weight:600;margin-bottom:20px;text-transform:capitalize}
+.right-loyalty-content.Experiential-design-text p{font-size:14px;font-weight:500;line-height:25px;margin:20px 0}
+ul.Experiential-list{list-style-type:decimal-leading-zero;padding-left:44px;display:block}
+ul.Experiential-list li{margin-bottom:0;border:none;line-height:25px;width:100%}
+.modal-body.model-css-design{text-align:left;padding:20px}
+.modal-body.model-css-design span.model-image{text-align:center}
+.modal-body.model-css-design h5{text-align:center;padding:0 30px;line-height:23px;font-size:16px!important}
+.modal-body.model-css-design ul{padding-left:16px}
+.modal-body.model-css-design h3{font-size:14px;font-weight:700}
+.div-hide{display:none}
+.notis{text-align:center;display:block;padding:0}
+.notis p{text-align:center;float:none;font-size:13px;text-transform:uppercase;font-weight:500}
+.notis p span{color:#164b91;font-weight:700}
+.support ul{display:block;clear:both;text-align:center;list-style-type:none}
+.support li{line-height:23px;text-align:left;padding-left:44%}
+.support ul li a{font-weight:600;color:#000;font-size:15px;line-height:30px;text-decoration:none}
+.support ul li a span{font-size:18px;margin-right:12px}
+.modal-dialog.mobile-popup-design{margin-top:15%}
+.modal-header.popup-heignt-custom{min-height:auto}
+.customer-data{display:block;padding:0 15px;float:left;width:100%}
+.customer-menu{padding:0 15px}
+.loyalty-warned-table-credit h3{font-size:18px}
+.loyalty-warned-table-debit h3{font-size:18px}
+.loyalty-warned-table-expired h3{font-size:18px}
+table#Earned thead tr th{background-color:#f5f1f1}
+table#Redeemed thead tr th{background-color:#f5f1f1}
+table#expired thead tr th{background-color:#f5f1f1}
+ul.process-model.more-icon-preocess li.first-active.active:after{background:#ccc}
+ul.process-model.more-icon-preocess li.first-active:after{background:#164691}
+ul.process-model.more-icon-preocess li.first-active a span.tier-list-circle{background:#164691}
+label.error{color:red;font-size:13px;font-weight:400;float:left;text-transform:inherit!important;text-align:left}
+.header-image img{max-width:100%;width:100%}
+.footer-image img{max-width:100%;width:100%}
+.banner-container-loyalty-feb{display:block;float:left;width:100%;position:relative}
+.banner-container-loyalty-feb img{max-width:100%;width:100%}
+.banner-content{width:100%;display:block}
+.banner-content img{max-width:100%}
+.loyalty-card-page-banner{background-image:url(/images/Loyality/Arena-Loyalty-Banner.jpg);height:344px;background-position:top}
+.msr-logo img{max-width:40%}
+.msr-logo{margin-top:130px}
+.text-loyalty-tittle h3{text-align:left;margin:30px 0 15px;font-weight:300}
+.text-loyalty-tittle p{text-align:left;line-height:22px;margin-bottom:50px}
+.loyalty-card-image{background:#fff;margin:15px 0;cursor:pointer}
+.loyalty-card-image .card{text-align:center;position:relative}
+a.readmore-custom-button{background:#0b3065;border-radius:0;text-transform:uppercase;margin:10px;float:none;font-size:12px}
+a.readmore-custom-button:hover{background-color:red;border:solid 1px #d61f26}
+.loyalty-card-image .card-body h5.card-title{font-size:15px;text-align:center}
+button.yes-i-m{float:none;margin:0 auto;display:block;padding:10px 35px;background:#164b91;border:none;color:#fff;margin-bottom:70px;margin-top:40px;text-transform:uppercase;font-size:14px}
+.loyalty-card-image .card:hover img.hover-card{position:absolute;top:0;right:0;left:0;margin:0 auto;display:block!important}
+.text-loyalty-tittle{box-shadow:0 0 4px #ccc;padding:10px;margin:30px 40px}
+.left-content{position:relative}
+.left-content h3{color:#2d3796;font-size:19px;font-weight:700}
+.left-content p{font-size:15px;line-height:22px;padding-right:15%;color:#666}
+.right-content h3{color:#2d3796;font-size:19px;font-weight:700}
+.right-content p{font-size:15px;line-height:22px;padding-right:5%;color:#666}
+.left-content:after{content:'';position:absolute;height:230px;width:1px;background:#b3b2b2;top:0;right:0}
+.loyalty-card-image .card img.card-img-top{max-width:70%}
+.left-loyalty-icon img{max-width:90%}
+button.layout-tablinks.active{color:#164b91}
+.tab-content{float:left!important}
+*{box-sizing:border-box}
+div#progressbar{margin:40px 0 0}
+.loyalty-new-progress-bar{height:15px}
+.loyalty-new-progress-bar .ui-widget-header{border:none;background:#164b91}
+.loyalty-new-progress-bar .ui-widget.ui-widget-content{border:none;background:#ccc;height:15px;border:none;background-color:#e1e1e1}
+.ui-progressbar .ui-progressbar-value{margin:0!important}
+.new-content-loyalty h3{color:#2d3796;font-size:16px;font-weight:700;text-transform:uppercase}
+.new-content-loyalty p{text-align:justify;font-size:14px;line-height:22px;padding-right:0;color:#666;margin-top:10px;margin-bottom:5px;font-weight:400}
+.image-design{width:130px;height:130px;border:solid 2px #ccc;border-radius:50%;margin:0 auto;text-align:center}
+.image-design img{margin:30px auto 0;max-width:47%}
+.loyalty-new-card-design{margin:25px 0}
+.text-design h3{font-size:13px;color:#2c3995;text-align:center;text-transform:uppercase;font-weight:600;margin:0 10px;line-height:20px;margin-top:15px}
+img.dashboard-image{width:100%}
+.top-text{display:none}
+.modal-content.loyalty-model{width:100%}
+.modal-content.loyalty-model .modal-body h3{font-size:18px;text-transform:uppercase;margin:10px 0}
+.modal-body.enrollpopup-design{height:420px;overflow:auto}
+div#enrolmentloader img{margin-top:20%}
+.right-icon-noti p{text-overflow:ellipsis;overflow:hidden}
+.enquiry-name .tb-heading{float:left;width:570px}
+.customer-profile .profile-content .tb-heading ul{list-style:none;padding:0;margin:0}
+.enquiry-name .tb-heading ul li.col-lg-3{width:auto}
+.enquiry-name .tb-heading ul li.col-lg-2{width:auto}
+p.notification-bell{display:none}
+.hoverEffectContainer{display:none!important}
+li.notification-bell{display:none!important}
+.float-right-faq-icon{float:right;color:#2f2a85}
+.increase img{margin-top:30px}
+.unique img{margin-top:30px}
+.stayapp img{max-height:75px}
+.header-sticky{display:flex;max-width:540px;color:#fff;align-items:center;padding:15px 10px;background:#2e3192;background:-moz-linear-gradient(left,#2e3192 0%,#303194 35%,#5633b9 100%);background:-webkit-linear-gradient(left,#2e3192 0%,#303194 35%,#5633b9 100%);background:linear-gradient(to right,#2e3192 0%,#303194 35%,#5633b9 100%);filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#2e3192',endColorstr='#5633b9',GradientType=1)}
+.header-sticky-middle-title{font-size:13px;line-height:1.2}
+.header-sticky-middle-sub-title{font-size:14px;line-height:1}
+.header-sticky-middle{margin-left:10px;margin-right:10px;max-width:243px;width:100%}
+.download-btn:hover{text-decoration:none;color:#fff}
+.download-btn:focus{outline:none}
+.design_modal .modal-content{width:100%;margin:0 auto}
+.design_modal{background:#000000b8}
+.design_modal .modal-dialog{margin-top:8%;width:800px}
+.design_modal .modal-content .modal-body{padding:30px}
+img{display:block;max-width:100%}
+.owl-carousel .owl-item .technoPagecarImg img{width:auto;max-width:100%}
+.relatedArticleContainer{width:100%;display:block;background:#eff1f2;padding:50px 0}
+.relatedArticleInn{width:100%;display:block}
+.relatedArticleInn h2{width:100%;display:block;border-bottom:#2b3893 solid 1px;padding-bottom:6px;position:relative}
+.relatedArticleInn h2::after{content:"";height:3px;width:160px;position:absolute;bottom:0;left:0;background-color:#2b3893}
+.relatedArticleInn h2 span{font-size:36px;color:#fff;text-transform:uppercase;position:relative;font-weight:700}
+.relatedArticleInn h2 span b{position:absolute;width:100%;height:2px;left:0;bottom:-5px}
+.relatatedArticleMain{width:100%;display:flex;flex-wrap:wrap}
+.relatedArticleBox{width:100%;display:inline-block;background:#eff1f2;position:relative;margin-top:25px}
+.relatedArticleBox a{color:#000;text-decoration:none}
+.relatedArticleBox .relatedArticleImg{position:relative;top:0;width:100%}
+.relatedArticleBox .relatedArticleImg img{width:100%;height:auto}
+.relatedArticleBox .relatedArticleContent{width:100%;background:#fff}
+.relatedArticleBox .relatedArticleContent span{width:100%;display:block;text-align:center;font-size:14px;color:#9e9a9b;font-weight:400;line-height:20px;margin-bottom:0;text-transform:uppercase}
+.relatedArticleBox .relatedArticleContent h3{font-size:18px;font-weight:600;color:#000;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-transform:uppercase}
+.relatedArticleBox .relatedArticleContent p{font-size:14px;font-weight:400;color:#333;margin:7px 0 0;text-align:left;line-height:1.4}
+.relatedArticleBox{padding:15px}
+button:focus,a:focus{border:0;outline:0}
+.relatatedArticleMain.cvt-automatic-related button.slick-arrow{border:0;background:#000;top:50%;transform:translateY(-50%);font-size:0;height:30px;width:30px;z-index:9999;position:absolute}
+.relatatedArticleMain.cvt-automatic-related button.slick-prev:before{content:'';position:absolute;background-image:url(https://arena-qa-rg-523160-single.azurewebsites.net/images/automatic-left-arrow.png);top:5px;z-index:999;width:9px;height:18px;left:10px}
+.relatatedArticleMain.cvt-automatic-related button.slick-prev{left:0}
+.relatatedArticleMain.cvt-automatic-related button.slick-next:before{content:'';position:absolute;background-image:url(https://arena-qa-rg-523160-single.azurewebsites.net/images/automatic-right-arrow.png);top:6px;z-index:999;width:11px;height:18px;right:8px}
+.relatatedArticleMain.cvt-automatic-related button.slick-next{left:auto;right:0}
+.container{font-family:Lato,sans-serif}
+.videoarticle-wrapper .relatedArticleBox .relatedArticleContent{padding:25px 25px 25px 15px}
+.modal-content{border-radius:0;box-shadow:none;border:0}
+.close{text-shadow:none;opacity:1;font-size:30px;float:none;position:absolute;top:5px;right:10px;z-index:1}
+.design_modal .modal-content button.close{color:#333;width:30px;height:30px;font-size:24px;position:absolute;top:0;right:0}
+div#msr-video-section .relatedArticleInn h2 span{color:#2b3893}
+div#loyaltyBadges .badges-block{float:left;display:inline-block;width:30%;margin:30px 1.5%}
+.badges-card{display:inline-block;float:left;width:100%;text-align:center;background:#ebebeb;position:relative;height:350px;margin:0 1%;cursor:pointer}
+.badges-text{position:absolute;bottom:20px;width:100%}
+.badges-text h3 {margin-bottom: 0;}
+.badges-text p {margin-bottom: 0;}
+div#enrolmentloader img {margin: 0 auto;}
+div#enrolmentloader {padding-top: 12%;}
+@media only screen and (max-width: 767px) {
+div#loyaltyBadges .badges-block{width:100%;margin:10px 0 0}
+.badges-block{width:100%;margin:0}
+.badges-card {height: 340px !important;}
+}
