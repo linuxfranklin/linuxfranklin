@@ -1,0 +1,410 @@
+@media (min-width: 1367px) and (max-width: 1920px) {
+	section.our-values-wrapper .our-values-components.container ul li .img-space {width: 75%;}
+	div#sidebarNav .subnav .container.non-tabbed {width: 1366px;}
+	header .pull-right.utilityWrapper.hidden-xs li.hidden-lg.hidden-md.iconMenuItem {display: none !important;}
+	.mobilecontent {display: none !important;}
+	.mediacontent .desktopcontent p {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+	/*Service-slick-dots*/
+	.generic-hero.wagonr-slick .generic-slider .slick-dots {bottom: 30px; width: auto; margin: 0 auto; left: 0; right: 0; display: inline-block !important; width: 25%;}
+	/*Service-slick-dots*/
+	.desktopcontent a.cptAdd11{margin-left:1079px!important;margin-top:378px!important}
+	.desktopcontent a.technology-le-web{top:440px;margin-left:950px}
+	.mediacontent .desktopcontent p a#Road-Safety-launch{margin-left:245px;top:430px}
+	.mobile-sticky-brand-list{display:none}
+	p.confire-button{display:none}
+	a.cptAdd12{position:absolute;right:300px;bottom:120px;background-color:#2b3494}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta11 {top: auto; bottom: 150px; position: absolute; left: 220px; background: #343083;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta10 {top: 430px; bottom: auto; position: absolute; left: 50px; background: #fff; color: #343083; font-size: 14px;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta15 {top: 430px; bottom: auto; position: absolute; left: 50px; background: #fff; color: #343083; font-size: 14px;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta9 {top: auto; bottom: 35px; position: absolute; left: auto; right: -1030px; background: #343083;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.deserveD{top:auto;bottom:235px; background-color: #ed1c24; position:absolute;left:30%}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.jcd_17{background-color: #ed1c24;}
+	body.wagonr .white.center.vcenter{top:205px!important}
+	body.wagonr .white.center.vcenter img{max-width:50%;float:left;clear:both;margin-left:10%!important}
+	body.wagonr .white.center.vcenter .desktopcontent{display:block;float:left}
+	.breeza .generic-hero .generic-slider .items .mediacontent.vcenter{top:60px}
+	body.ertiga .custom-prise-select-city{top:380px!important}
+	body.swift div#defaultModal .modal-content{margin-top:0}
+	body.swift div#defaultModal .modal-dialog{margin-top:7%}
+	body.swift .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.swift div#defaultModal .modal-content{margin-top:0}
+	body.swift div#defaultModal .modal-dialog{margin-top:7%}
+	body.swift .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.swift .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	body.ertiga div#defaultModal .modal-content{margin-top:0}
+	body.ertiga div#defaultModal .modal-dialog{margin-top:7%}
+	body.ertiga .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.ertiga div#defaultModal .modal-content{margin-top:0}
+	body.ertiga div#defaultModal .modal-dialog{margin-top:7%}
+	body.ertiga .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.ertiga .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	body.dzireblue div#defaultModal .modal-content{margin-top:0}
+	body.dzireblue div#defaultModal .modal-dialog{margin-top:7%}
+	body.dzireblue .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.dzireblue div#defaultModal .modal-content{margin-top:0}
+	body.dzireblue div#defaultModal .modal-dialog{margin-top:7%}
+	body.dzireblue .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.dzireblue .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	body.breeza div#defaultModal .modal-content{margin-top:0}
+	body.breeza div#defaultModal .modal-dialog{margin-top:7%}
+	body.breeza .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.breeza div#defaultModal .modal-content{margin-top:0}
+	body.breeza div#defaultModal .modal-dialog{margin-top:7%}
+	body.breeza .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.breeza .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	.specifications-component .spcification .tab-data{width:50%}
+	body.spresso.sizzle-orange section#reviews div#brandreviews img {height: 100vh;}
+	body.spresso.sizzle-orange .car-reviews .reviewContent .rightcontent {bottom: 222px;}
+	body.spresso.sizzle-orange .reviewCarousel .items {padding-bottom: 0 !important; margin-bottom: 20px !important;}
+	body.spresso.sizzle-orange .car-reviews .reviewContent {padding: 30px 0;}
+	}
+	@media (min-width: 1280px) and (max-width: 1366px) {
+	section.our-values-wrapper .our-values-components.container ul li .img-space {width: 75%;}
+	section.our-values-wrapper .our-values-components.container ul li .img-space img {width: 100%;}
+	header .pull-right.utilityWrapper.hidden-xs li.hidden-lg.hidden-md.iconMenuItem {display: none !important;}
+	.mobilecontent {display: none !important;}
+	.mediacontent .desktopcontent p {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+	body.swift .custom-prise-select-city {top: 382px !important;}
+	body.dzireblue .custom-prise-select-city {top: 370px !important; left: 3% !important; }
+	/*Service-slick-dots*/
+	.generic-hero.wagonr-slick .generic-slider .slick-dots {bottom: 30px; width: auto; margin: 0 auto; left: 0; right: 0; display: inline-block !important; width: 25%;}
+	/*Service-slick-dots*/
+	body.spresso.sizzle-orange section#reviews div#brandreviews img {height: 100vh;}
+	body.spresso.sizzle-orange .car-reviews .reviewContent .rightcontent {bottom: 222px;}
+	body.spresso.sizzle-orange .reviewCarousel .items {padding-bottom: 0 !important; margin-bottom: 20px !important;}
+	body.spresso.sizzle-orange .car-reviews .reviewContent {padding: 30px 0;}
+	.mobile-sticky-brand-list{display:none}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta11 {top: auto; bottom: 90px; position: absolute; left: 150px; background: #343083;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta10 {top: 300px; bottom: auto; position: absolute; left: 35px; background: #fff; color: #343083; font-size: 14px;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta15 {top: 300px; bottom: auto; position: absolute; left: 35px; background: #fff; color: #343083; font-size: 14px;}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.cta9 {top: auto; bottom: 20px; position: absolute; left: auto; right: -755px; background: #343083;}
+	p.confire-button{display:none}
+	body.arenaservice .mediacontent .desktopcontent a.cptAdd12{position:absolute;right:175px;bottom:80px;background-color:#2b3494}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.deserveD{top:auto;bottom:160px; background-color: #ed1c24; position:absolute;left:23.5%}
+	body.arenaservice .mediacontent .desktopcontent a.btn.btn-hover.jcd_17{background-color: #ed1c24}
+	.specifications-component .spcification .tab-data{width:50%}
+	body.tango-orange .custom-prise-select-city{top:480px}
+	.digi-brochure-right{padding-left:3%;padding-right:3%;margin-top:6%}
+	.desktopcontent a.cptAdd11{margin-left:937px!important;margin-top:330px!important}
+	.desktopcontent a.technology-le-web{top:400px;margin-left:856px}
+	.mediacontent .desktopcontent p a#Road-Safety-launch{margin-left:210px;top:390px}
+	body.celerio div#defaultModal .modal-content{margin-top:0}
+	body.celerio div#defaultModal .modal-dialog{margin-top:7%}
+	body.celerio .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.celerio div#defaultModal .modal-content{margin-top:0}
+	body.celerio div#defaultModal .modal-dialog{margin-top:7%}
+	body.celerio .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.celerio .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	body.swift div#defaultModal .modal-content{margin-top:0}
+	body.swift div#defaultModal .modal-dialog{margin-top:7%}
+	body.swift .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.swift div#defaultModal .modal-content{margin-top:0}
+	body.swift div#defaultModal .modal-dialog{margin-top:7%}
+	body.swift .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.swift .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	body.ertiga div#defaultModal .modal-content{margin-top:0}
+	body.ertiga div#defaultModal .modal-dialog{margin-top:7%}
+	body.ertiga .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.ertiga div#defaultModal .modal-content{margin-top:0}
+	body.ertiga div#defaultModal .modal-dialog{margin-top:7%}
+	body.ertiga .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.ertiga .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	body.dzireblue div#defaultModal .modal-content{margin-top:0}
+	body.dzireblue div#defaultModal .modal-dialog{margin-top:7%}
+	body.dzireblue .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.dzireblue div#defaultModal .modal-content{margin-top:0}
+	body.dzireblue div#defaultModal .modal-dialog{margin-top:7%}
+	body.dzireblue .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.dzireblue .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	body.breeza div#defaultModal .modal-content{margin-top:0}
+	body.breeza div#defaultModal .modal-dialog{margin-top:7%}
+	body.breeza .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.breeza div#defaultModal .modal-content{margin-top:0}
+	body.breeza div#defaultModal .modal-dialog{margin-top:7%}
+	body.breeza .testDriveform_pop .forms-disclaimer{margin:0 0 5px}
+	body.breeza .testDriveform_pop .forms-disclaimer div#forms-disclaimer p{display:inline-block;font-size:12px!important;line-height:17px}
+	div#forms-disclaimer input#FormChkBoxBookPop{margin-top:6px}
+	}
+	@media (min-width: 768px) and (max-width: 1024px) {
+	a#fmp-launch-mob{top:400PX;left:50%!important;transform:translateX(-50%)!important;height:45px}
+	}
+	@media (min-width: 481px) and (max-width: 767px) {
+	section.sticky-nav .leftNav{display:none}
+	section.sticky-nav .rightNav{display:none}
+	.mobile-sticky-brand-list{display:block}
+	}
+	@media (min-width: 360px) and (max-width: 667px) {
+	body.swift .custom-prise-select-city{padding:0 15px!important;top:auto!important;bottom:20px!important}
+	body.swift div#product{margin-top:70px!important;background:#2b2b2b}
+	.mobilecontent #swift-le-launch-mob{bottom:-475px}
+	}
+	@media (min-width: 320px) and (max-width: 480px) {
+	.booktestpopup.overlayContent .content{padding:5px 20px 0}
+	.testDriveform_pop .form-group br:last-child{display:none}
+	button#btnbooktestdriveOtp{margin-bottom:15px!important}
+	.btn-dbr-col button.btn-dbr a{font-size:12px}
+	.btn-dbr-col a{font-size:12px}
+	.digi-brochure-left img{max-width:100%}
+	form#ebook-otp .footer input#screen1-button{width:135px;line-height:17px;height:40px;margin-bottom:23px;border-radius:0}
+	a#fmp-launch-mob{top:500PX;left:50%!important;transform:translateX(-50%)!important;padding:5px 10px;font-size:14px}
+	.wrapper-extend-warrenty h2{margin-top:0!important;margin-bottom:0!important;font-size:14px!important}
+	.wrapper-extend-warrenty{margin-top:570px!important}
+	.warranty-content .container .col-lg-6{padding:0}
+	a.cptmAdd11{text-transform:uppercase!important;font-size:13px;line-height:40px!important;width:260px!important}
+	.footer-fixed-tab ul li a span img{margin:0 auto}
+	.mobilecontent a.technology-le-mob{top:auto;bottom:-510px;left:0;right:0;margin:0 auto;padding:5px 10px;font-size:14px}
+	.mediacontent .mobilecontent p a#Road-Safety-launch-mob{top:485px;bottom:auto;left:0;right:0;margin:0 auto;padding:5px 10px;font-size:14px}
+	section.sticky-nav .leftNav{display:none}
+	section.sticky-nav .rightNav{display:none}
+	.mobile-sticky-brand-list{display:block}
+	ul.brand-mobile-listing{display:block;text-align:center;float:left;width:100%;text-align:center}
+	ul.brand-mobile-listing li{display:inline-block;padding:0;width:auto;position:relative;margin-left:-2px}
+	ul.brand-mobile-listing li a{color:#fff;text-transform:uppercase;display:block;font-size:12px;padding:16px 14px}
+	ul.brand-mobile-listing li:after{position:absolute;content:'';height:40%;width:1px;background:#ccc;top:30%;right:0}
+	ul.brand-mobile-listing li:last-child:after{display:none}
+	p.confire-button{display:block;text-align:center;padding:10px 0 0}
+	p.confire-button a{background:#000;color:#fff;text-transform:uppercase;padding:10px 20px;display:inline-block}
+	.sticky-nav.fixed{z-index:999999!important}
+	.footer-sticky ul.sticky-llisting li a label{font-size:13px}
+	select#dealerstate_pop{background-color:#fff!important;background:none!important}
+	.booktestpopup.overlayContent .content{background:#fff}
+	div#forms-disclaimer input#FormChkBoxBookPop{width:20px;height:20px}
+	.booktestpopup div#defaultNewForm_pop .mandatory-heading{margin-top:0;margin-bottom:5px}
+	div#defaultModal .modal-dialog{top:3%!important}
+	div#defaultModal .close{position:relative!important;float:right}
+	span#otptestDriveError{font-size:13px;margin-top:3px;display:block}
+	#defaultModal .booktestpopup .content .form-group input{height:30px;margin-bottom:5px;font-size:13px}
+	#defaultModal .booktestpopup .content .form-group select{height:30px;margin-bottom:5px;font-size:13px;background-color:#fff!important}
+	#defaultModal #forms-disclaimer{margin-top:0!important}
+	body.swift .generic-hero .generic-slider .items .mediacontent.vcenter img{top:0!important;padding-bottom:0}
+	body.swift .generic-hero .generic-slider .items .mediacontent.vcenter{padding-top:0!important;padding-bottom:0;top:285px!important;bottom:auto!important}
+	body.swift .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.swift div#product{margin-top:0!important;background:#2b2b2b}
+	body.swift .custom-prise-select-city{padding:0 15px!important;top:auto!important;bottom:-20px!important;left:0}
+	body.swift .all-car-fule-efficiency.calculate-wrapper h2{font-size:14px!important}
+	.all-car-fule-efficiency.calculate-wrapper h2 span{font-size:14px!important}
+	body.swift .generic-hero .generic-slider .items .mediacontent.vcenter .mobilecontent p{top:0!important;text-overflow:ellipsis;overflow:hidden!important;white-space:nowrap;line-height:normal;height:auto}
+	.all-car-fule-efficiency.calculate-wrapper p{font-size:14px!important}
+	body.swift p.checck-price{color:#fff;margin-bottom:0}
+	body.swift div#product .all-cars-calculator-fule-efficiency{padding-bottom:0!important}
+	body.swift .performance-component .performance-content .altok10-info .petrol-content-row li{margin-right:15px;line-height:27px}
+	body.swift .three60view .three60view-content .viewicon-area{top:4px;right:0}
+	body.swift .three60view .three60view-content .chase-description p:last-child{color:#fff;line-height:18px}
+	body.swift .three60view .three60view-content .chase-description img{max-width:30%}
+	body.swift .three60view .three60view-content .chase-description{padding-bottom:0;padding-left:15px;bottom:70px;margin-top:0!important}
+	body.swift .spcification .img-car img{max-width:70%;float:right}
+	body.swift .product-carousel .productCarousel .items .productItems .features{right:49px}
+	body.breeza .generic-hero .generic-slider .items .mediacontent.vcenter .mobilecontent{display:none}
+	body.breeza .generic-hero .generic-slider .items .mediacontent.vcenter{padding-top:0!important;top:250px!important;bottom:auto!important}
+	body.breeza .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.breeza .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.breeza .sticky-nav{margin-top:0}
+	body.breeza .reviewCarousel .category{display:none}
+	body.breeza .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.breeza .car-reviews .reviewContent .items{margin-bottom:0}
+	body.breeza div#product{margin-top:75px!important}
+	body.breeza .generic-hero .generic-slider .items .mediacontent.vcenter img{top:0!important;padding-bottom:0;max-width:74%;margin:0 auto;left:0!important}
+	body.ertiga .generic-hero .generic-slider .items .mediacontent.vcenter img {top: 302px !important; bottom: auto; left: 0 !important; padding-bottom: 0 !important; width: 70%;}
+	body.ertiga .generic-hero .generic-slider .items .mediacontent.vcenter .mobilecontent{display:none}
+	body.ertiga .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.ertiga .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.ertiga .reviewCarousel .category{display:none}
+	body.ertiga .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.ertiga .car-reviews .reviewContent .items{margin-bottom:0}
+	body.ertiga div#product{margin-top:75px!important}
+	body.dzireblue .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.dzireblue .reviewCarousel .category{display:none}
+	body.dzireblue .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.dzireblue .car-reviews .reviewContent .items{margin-bottom:0}
+	body.dzireblue section.footer-component{padding-top:0!important}
+	body.alto .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.alto .custom-prise-select-city{right:0;padding-right:0;top:380px!important;left:0;width:94%!important;padding-left:0!important;margin:0 auto!important}
+	body.alto .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.alto .reviewCarousel .category{display:none}
+	body.alto .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.alto .car-reviews .reviewContent .items{margin-bottom:0}
+	body.alto section.footer-component{padding-top:0!important}
+	body.wagonr .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.wagonr .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.wagonr .reviewCarousel .category{display:none}
+	body.wagonr .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.wagonr .car-reviews .reviewContent .items{margin-bottom:0}
+	body.wagonr section.footer-component{padding-top:0!important}
+	body.wagonr .all-cars-calculator-fule-efficiency .fule-description{color:#fff;font-size:13px;line-height:20px}
+	body.celerio .custom-prise-select-city .price-inner-container select{border-radius:0!important}
+	body.celerio .car-reviews .reviewContent .rightcontent{top:0;bottom:0;position:relative;float:left}
+	body.celerio .reviewCarousel .category{display:none}
+	body.celerio .reviewCarousel .deskCarousel .col-lg-9 p:nth-child(2){display:none}
+	body.celerio .car-reviews .reviewContent .items{margin-bottom:0}
+	body.celerio section.footer-component{padding-top:0!important}
+	body.celerio .all-cars-calculator-fule-efficiency .fule-description{color:#fff;font-size:13px;line-height:20px}
+	.productItems .all-cars-calculator-fule-efficiency h3.all-car-fule-efficiency-tittle{font-size:13px!important;margin-bottom:0}
+	.three60view .three60view-content .chase-description p{color:#fff;font-size:13px;margin-bottom:0;line-height:20px;padding-top:10px}
+	.social_media .play-store-link{text-align:center}
+	.productItems div#product .autogear img{width:auto!important}
+	.sticky-nav{margin-top:0}
+	form.testDrive .checkbox input#btdcheckbox{width:35px!important;height:30px!important}
+	.generic-hero .generic-slider .slick-dots{bottom:-10px}
+	.gotToNext{display:none}
+	.mobilecontent a#mss-mob {top: 473px !important; left: 0 !important; right: 0; margin: 0 auto; bottom: auto;}
+	.mobilecontent #swift-le-launch-mob{top:auto;bottom:-160px;left:0;right:0;margin:0 auto;transform:translateX(-0%);padding:5px 10px;font-size:14px}
+	p.jan-republic .cptmAdd11{background:#2f2a86;text-align:center;color:#fff;margin:0 auto;display:block;position:absolute;left:0;right:0;top:420px}
+	section.specifications-component .tabContent .tabs ul li{position:relative}
+	section.specifications-component .tabContent .tabs ul li:after{position:absolute;content:'';width:1px;height:10px;background:#000;right:-5px;top:6px}
+	header .utilityWrapper{width:44%!important}
+	select.language-trans{width:90px!important}
+	header .utilityWrapper li:last-child{display:block!important}
+	button.navbar-toggle.toggle-menu.pull-left{margin-right:0}
+	header .mobile-logo img{max-width:100%;float:left}
+	header .mobile-logo{width:40%;padding-top:7px}
+	select.language-trans{padding:0 3px!important}
+	ul.utilityItems.pull-right li.hidden-lg.hidden-md.iconMenuItem{display:none!important}
+	}
+	@media screen and (max-width: 399px) {
+	body.swift .generic-hero .generic-slider .items .mediacontent.vcenter img{padding-bottom:0}
+	body.swift .all-cars-calculator-fule-efficiency p.all-car-fule-efficiency-discriptions{font-size:11px!important}
+	ul.brand-mobile-listing li{margin-left:-6px}
+	body.swift div#product .pull-right .autogear{margin-top:-10px}
+	}
+	@media screen and (max-width: 480px) {
+	a.cptmAdd12{background-color:#2b3494;color:#fff;padding:5px 0;margin:0 auto;display:block;text-align:center;width:50%;top:auto;bottom:-395px;position:absolute;left:0;right:0;font-size:13px}
+	body.altohindi .product-carousel .productCarousel .items .productItems .proudctFooter{top:20px!important}
+	body.alto .proudctFooter{padding-top:20%}
+	body.alto .generic-hero .generic-slider .items .mediacontent.vcenter{top:245px!important;left:0;width:90%;right:0!important;padding:0;margin:0 auto;overflow:hidden;-webkit-transform:translateY(0%);transform:translateY(0%);bottom:auto}
+	body.alto .mediacontent img{top:0!important}
+	body.alto .mobilecontent.hidden-md.hidden-lg p{top:0!important;height:auto;overflow:hidden!important}
+	body.wagonr .proudctFooter{padding-top:25%!important}
+	body.wagonr .product-carousel .productCarousel .items .productItems .proudctFooter ul li{width:48%;margin-bottom:10px}
+	body.wagonr .product-carousel .productCarousel .items .productItems .proudctFooter{padding:10px;padding-top:20%!important}
+	body.wagonr .generic-hero .generic-slider .items .mediacontent.vcenter{right:0!important;top:235px!important}
+	body.wagonr .mobilecontent.hidden-md.hidden-lg p{top:0!important;height:auto}
+	body.wagonr .mediacontent.col-lg-5.white.center.vcenter img{top:0!important}
+	body.wagonr .custom-prise-select-city{top:390px}
+	body.swift .generic-hero .generic-slider .items .mediacontent.vcenter{top:275px!important}
+	body.swift .custom-prise-select-city{top:420px!important}
+	body.breeza .product-carousel .productCarousel .items .productItems .proudctFooter{padding-top:25%}
+	body.breeza .pull-right{width:auto!important;top:0;bottom:auto!important}
+	body.breeza .three60view .three60view-content .chase-description{padding-left:25px}
+	body.breeza .custom-prise-select-city {padding: 0 15px!important; top: 420px !IMPORTANT; bottom: auto !important;}
+	body.breeza .proudctFooter p{margin-bottom:0!important;font-size:10px}
+	body.breeza .fule-description{padding-top:0!important}
+	body.breeza .product-carousel .productCarousel .items .productItems .proudctFooter ul li:first-child{padding-left:0}
+	body.breeza .product-carousel .productCarousel .items .productItems .proudctFooter a{margin-bottom:10px;display:block;width:auto}
+	body.celerio .generic-hero .generic-slider .items .mediacontent.vcenter{top:245px!important;margin:0 auto;padding-right:0;-webkit-transform:translateY(0%);transform:translateY(0%);bottom:auto}
+	body.celerio .proudctFooter{padding-top:20%!important}
+	body.celerio .custom-prise-select-city{padding-right:0;left:0!important}
+	body.celerio .generic-hero .generic-slider .items .mediacontent.vcenter img{top:0!important;left:0!important;padding-bottom:0!important}
+	body.celerio .mobilecontent.hidden-md.hidden-lg p{top:0!important;height:auto;overflow:hidden!important}
+	body.tango-orange .generic-hero .generic-slider .items .mediacontent.vcenter{top:255px!important;bottom:auto;width:95%;margin:0 auto;left:0!important;right:0;padding:0;-webkit-transform:translateY(0%);transform:translateY(0%);bottom:auto}
+	body.tango-orange .mediacontent{top:330px!important}
+	body.tango-orange .proudctFooter{padding-left:0!important;padding-bottom:0!important;padding-top:30%;width:90%!important;margin:0 auto}
+	body.tango-orange .custom-prise-select-city{right:0;padding-right:0;top:388px!important;left:0;padding-left:0;margin:0 auto}
+	body.tango-orange .mediacontent .mobilecontent p{top:0!important;overflow:hidden!important;height:auto}
+	body.tango-orange .mediacontent.vcenter img{top:0!important;left:0!important;padding-bottom:0!important;margin-left:0!important}
+	body.tango-orange .proudctFooter p{font-size:10px;line-height:16px}
+	body.dzireblue .generic-hero .generic-slider .items .mediacontent.vcenter{top:275px!important}
+	body.dzireblue .custom-prise-select-city{right:0;top:390px!important;left:0!important;margin:0 auto;padding:0;width:94%}
+	body.dzireblue .generic-hero .generic-slider .items .mediacontent.vcenter img{top:0!important;padding-bottom:0!important}
+	body.dzireblue .generic-hero .generic-slider .items .mediacontent.vcenter .mobilecontent p{top:0!important;overflow:hidden!important}
+	body.spresso .generic-hero .generic-slider .items .mediacontent.vcenter{width:100%;-webkit-transform:translateY(0%);transform:translateY(0%);bottom:auto;top:210px!important;padding:0 15px}
+	body.spresso .generic-hero .generic-slider .items .mediacontent.vcenter img{top:0!important;padding-bottom:0!important}
+	body.spresso .mobilecontent.hidden-md.hidden-lg p{top:0!important;left:0!important}
+	body.spresso .custom-prise-select-city{right:0;top:335px!important;left:0!important;margin:0 auto;width:90%;padding:0}
+	body.spresso .product-carousel .productCarousel .items .productItems .proudctFooter{top:75px!important;position:relative!important;bottom:0!important;padding-left:0;width:90%;margin:0 auto;padding-bottom:0}
+	body.spresso .product-carousel .productCarousel .items .productItems .proudctFooter ul li:first-child{padding-left:0}
+	body.spresso .product-carousel .productCarousel .items .productItems .proudctFooter ul li{width:31%}
+	body.spresso .product-carousel .productCarousel .items .productItems .rightCol{margin-top:16px}
+	body.spresso .proudctFooter p{font-size:10px}
+	body.spresso .proudctFooter div:first-child{margin-bottom:0!important;margin-top:0!important}
+	body.spresso .fule-description{padding-top:1px}
+	body.eeco .product-carousel .productCarousel .items .productItems .proudctFooter{top:150px!important;position:relative!important;bottom:0!important;padding-left:0;padding-bottom:0;width:90%;margin:0 auto}
+	body.ertiga .custom-prise-select-city {right: 0; padding-right: 0; top: 395px!important; padding-left: 0; margin: 0 auto;}
+	body.ertiga .product-carousel .productCarousel .items .productItems .proudctFooter{top:130px!important;position:relative!important;bottom:0!important;padding-left:0;width:90%;margin:0 auto;padding-bottom:0}
+	body.ertiga .product-carousel .productCarousel .items .productItems .proudctFooter ul li{padding-bottom:0!important;width:47%;margin-bottom:10px}
+	body.ertiga .product-carousel .productCarousel .items .productItems .proudctFooter ul li:first-child{padding-left:0;padding-left:0}
+	body.ertiga .product-carousel .productCarousel .items .productItems .proudctFooter ul li:nth-child(3){padding-left:0}
+	body.ertiga p.all-car-fule-efficiency-discriptions{margin-bottom:0}
+	body.ertiga .fule-description{padding-top:0}
+	body.ertiga .proudctFooter p{font-size:10px}
+	.productItems .proudctFooter .col-lg-4.pull-right{position:relative!important;width:100%!important;top:0!important;height:auto!important;bottom:0!important}
+	.product-carousel .productCarousel .items .productItems .proudctFooter .autogear{position:relative!important;bottom:0!important;left:0!important;width:30%;float:left}
+	.swift .proudctFooter .col-lg-4.pull-right{display:none}
+	body.dzireblue .pull-right{bottom:0!important;width:auto!important}
+	body.dzireblue .pull-right .autogear{width:34%!important}
+	body.celerio .product-carousel .productCarousel .items .productItems .proudctFooter .autogear{width:75%}
+	body.spresso .product-carousel .productCarousel .items .productItems .proudctFooter .autogear{width:85%}
+	body.spresso .product-carousel .productCarousel .items .productItems .proudctFooter .autogear img{max-width:50%!important}
+	body.ertiga .product-carousel .productCarousel .items .productItems .proudctFooter .autogear img{max-width:25%!important;margin-right:11px!important}
+	body.eeco .productItems .proudctFooter .col-lg-4.pull-right{top:0!important}
+	body.eeco .product-carousel .productCarousel .items .productItems .proudctFooter .autogear{margin-bottom:0!important}
+	body.eeco .proudctFooter div:first-child{margin-bottom:0!important}
+	body.tour-alto .vcenter{top:430px!important;width:100%!important;padding:0!important;bottom:auto!important}
+	body.tour-alto .vcenter img:first-child{width:100%;top:0!important}
+	body.tour-alto .mobilecontent.hidden-md.hidden-lg{display:none!important}
+	body.tour-alto .desktopcontent.hidden-xs.hidden-sm{display:none!important}
+	body.tour-alto .rightcontent{position:relative!important;top:0!important;float:left}
+	body.tour-alto a#lad-footer{display:none}
+	.pull-right.utilityWrapper.hidden-xs{bottom:auto!important}
+	.custom-prise-select-city .price-inner-container p.checck-price{margin-bottom:0}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam11 {background-color: #41398c; color: #fff;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam10 {background: #fff; color: #41398c;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam9 {background-color: #41398c; color: #fff;}
+	.hero .outer .column.centerColumn .innerContent .btns {font-size: 9px;}
+	}
+	@media screen and (max-width: 376px) {
+	a.cptmAdd12{background-color:#2b3494;color:#fff;padding:9px 20px;margin:0 auto;display:block;text-align:center;width:70%;top:auto;bottom:-420px;position:absolute;left:0;right:0;font-size:13px}
+	body.altohindi .product-carousel .productCarousel .items .productItems .proudctFooter{top:40px!important}
+	body.wagonr .product-carousel .productCarousel .items .productItems .proudctFooter ul li{width:48%;margin-bottom:10px}
+	a.btn-hover.btn-service-center.ctam11 {background: #41398c;}
+	}
+	@media (min-width: 360px) and (max-width: 667px) {
+	body.eecomilage .mediacontent.col-lg-5.white.left.vcenter .mobilecontent p{overflow:hidden!important;text-overflow:ellipsis;white-space:nowrap;width:70%;height:auto;margin:10px 0}
+	body.celeriomilage .mediacontent.col-lg-5.white.left.vcenter .mobilecontent p{overflow:hidden!important;text-overflow:ellipsis;white-space:nowrap;width:70%;height:auto;margin:10px 0;top:0!important}
+	body.swiftmilage .mediacontent.col-lg-5.white.left.vcenter .mobilecontent .swift-mileage-mob p{overflow:hidden!important;text-overflow:ellipsis;white-space:nowrap;width:70%;height:auto;margin:10px 0;top:0!important}
+	body.celeriomilage .mediacontent img:first-child{width:auto;padding-bottom:0}
+	body.celeriomilage .mediacontent img{width:auto!important}
+	body.swiftmilage .generic-hero .generic-slider .items .mediacontent.vcenter{-webkit-transform:translateY(0%)!important;transform:translateY(0%)!important;top:280px!important}
+	body.swiftmilage .mobilecontent p:first-child{display:none!important}
+	body.swiftmilage .swift-mileage-mob p:first-child{display:block!important}
+	body.swiftmilage .exclusive-price p.price{margin:0!important;height:auto!important;line-height:normal!important}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam11 {background-color: #41398c; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 50px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam10 {background: #fff; color: #41398c; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 50px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam15 {background: #fff; color: #41398c; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 50px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam9 {background-color: #41398c; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: 230px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn.btn-hover.btn-service-center.sbb-01{background-color: #ed1c24; color: #fff;}
+	body.arenaservice .mediacontent .mobilecontent a.sbb-03.deserveM{background-color: #ed1c24; color: #fff;}
+	body.dzireblue .custom-prise-select-city {width: 90% !important;}
+	.footer-sticky ul.sticky-llisting {margin-bottom: 0px;}
+	section.our-values-wrapper .our-values-components.container ul li .img-space img{width: 100%;}
+	section.our-values-wrapper .our-values-components.container ul li .img-space {width: 75%;}
+	}
+	
+	@media (min-width: 414px) and (max-width: 736px) {
+	section.our-values-wrapper .our-values-components.container ul li .img-space img{width: 100%;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam11 {background-color: #ed1c24; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam10 {background-color: #ed1c24; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam9 {background-color: #ed1c24; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto;}
+	}
+	
+	
+	@media (min-width: 393px) and (max-width: 830px) {
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam11 {background-color: #41398c; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 70px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam10 {background: #fff; color: #41398c; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 70px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam15 {background: #fff; color: #41398c; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: auto; bottom: 70px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn-hover.btn-service-center.ctam9 {background-color: #41398c; color: #fff; margin: 0 auto; position: absolute; left: 0; right: 0; text-align: center; width: 65%; line-height: 31px; top: 270px;}
+	body.arenaservice .mediacontent .mobilecontent a.btn.btn-danger.btn-hover.btn-service-appointment.sbb-03.deserveM {top: 235px !important;}
+	body.arenaservice .mediacontent .mobilecontent a.btn.btn-hover.btn-service-center.sbb-01{background-color: #ed1c24; color: #fff;}
+	body.arenaservice .mediacontent .mobilecontent a.sbb-03.deserveM{background-color: #ed1c24; color: #fff;}
+	.mobilecontent p .ctam6 {margin-top: 175px;}
+	body.dzireblue .custom-prise-select-city {width: 100% !important;}
+	.footer-sticky ul.sticky-llisting {margin-bottom: 0px;}
+	body.ertiga .generic-hero .generic-slider .items .mediacontent.vcenter img {top: 360px !important; width: 60%;}
+	section.our-values-wrapper .our-values-components.container ul li .img-space img{width: 100%;}
+	section.our-values-wrapper .our-values-components.container ul li .img-space {width: 75%;}
+	.mobilecontent a#mss-mob {top: 513px !important; }
+	}

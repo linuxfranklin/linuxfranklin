@@ -1,0 +1,183 @@
+@media (min-width: 1280px) and (max-width: 1920px) {
+    .header-sticky{display:none}
+    }
+    @media (min-width: 1025px) and (max-width: 1366px) {
+    .header-sticky{display:none}
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    .header-sticky{display:none}
+    .box-one{min-width:140px}
+    .box-one.availabale-points{margin-right:0}
+    .modal-dialog.mobile-popup-design{margin-top:35%}
+    .accordian-block{display:block;width:90%;margin:0 auto;clear:both;float:none}
+    .process-model li::after{right:-134px}
+    .badges-card{width:48%;margin:10px 1%}
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    .header-sticky{position:fixed;display:block;float:left;top:50px;z-index:999}
+    .header-sticky-middle-title span.special-text{font-size:14px;font-weight:600}
+    a.header-sticky-close{position:relative;display:inline-block;float:left}
+    .header-sticky-middle{margin-left:10px;margin-right:10px;display:inline-block;float:left;max-width:60%}
+    a#loyality-dwn{display:inline-block;float:left;width:28%;text-align:center;color:#fff;border:solid 1px #fff;line-height:16px;padding:5px;font-size:11px;font-weight:600;text-transform:uppercase}
+    .layout-wrapper button.layout-tablinks:first-child{margin-right:15px}
+    ul.loyalti-name-top-header li{display:block;float:left}
+    ul.loyalti-name-top-header{display:block;float:left;width:100%;position:relative}
+    ul.loyalti-name-top-header li.notification-bell{top:-25px;position:absolute;right:0}
+    .right-loyalty-content p{margin-top:0}
+    .new-progress-bar-design{padding:0 0 25px}
+    .layout-wrapper button{margin:5px 15px;font-size:13px}
+    .accordian-block{width:100%}
+    .box-one{padding:14px;min-width:80%;margin:5px 0;min-height:auto}
+    .box-one p{display:inline-block}
+    .left-loyalty-icon{width:20%}
+    .submenu{padding:5px 9px}
+    ul.date-block-earned li{display:block;width:100%}
+    .tab-tiers button{padding:10px 36px}
+    .badges-card{display:block;width:100%;height:300px;margin:10px auto}
+    .box-one.availabale-points{margin-right:0}
+    .box-one.expired-points span{font-size:15px}
+    .expire-block-dashboard{margin:25px 0!important}
+    .left-text-name{display:block;float:left;width:100%;text-align:left;padding:0 15px}
+    .left-text-name h2{margin:5px 0}
+    .left-text-name ul{margin:0;display:block}
+    .right-text-number{display:block;float:left;width:100%;text-align:left;padding:0 15px}
+    .right-text-number h2{margin:10px 0;text-transform:uppercase;font-size:15px!important}
+    .transaction-history-design{width:100%;margin:0 auto}
+    .transaction-history-design .loyalty-warned-table-credit h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    .transaction-history-design .loyalty-warned-table-debit h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    .transaction-history-design .loyalty-warned-table-expired h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    ul.date-block-earned input.to-design{width:100%;border:none;background:#fff;line-height:40px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:0;margin-bottom:5px}
+    ul.date-block-earned input.from-design{width:100%;border:none;background:#fff;line-height:40px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:0;margin-bottom:5px}
+    ul.date-block-earned li:first-child{color:#fff;margin-bottom:10px}
+    .process-model li.active a span.tier-list-circle{background-image:none}
+    .more-icon-preocess.process-model li span{font-size:16px}
+    .more-icon-preocess.process-model li::after{top:25px;left:-6px}
+    .process-model li{display:inline-block;width:49%;text-align:left;float:none}
+    ul.nav.nav-tabs.process-model.more-icon-preocess li:last-child{text-align:right}
+    .process-model li::after{width:250px}
+    ul.nav.nav-tabs.process-model.more-icon-preocess li:last-child a{padding-right:0}
+    .modal-dialog.mobile-popup-design{margin-top:30%}
+    .Experiential-design-text span{margin:0!important}
+    .Experiential-design-text span img{max-width:100%;text-align:left}
+    .customer-menu ul.nav.nav-tabs li a{padding:10px 6px;font-size:12px;margin-right:0}
+    .customer-menu ul.nav.nav-tabs{width:100%;margin-top:0}
+    .custom-width{margin-top:18%;height:560px;overflow:auto!important}
+    .right-loyalty-content p{margin-top:15px}
+    .tab-content{float:left}
+    .right-text-number{padding:0}
+    .left-text-name{padding:10px 0 0}
+    .right-text-number h2{margin-bottom:0}
+    .customer-menu ul.nav.nav-tabs:first-child li a{padding-left:0!important}
+    .loyalty-tab{margin-top:0}
+    .support ul li{padding-left:0;text-align:center}
+    button.enrollBtn.mobile-center{float:none}
+    .text-design h3{margin:0 3px;float:left;margin:5px}
+    .text-design{float:left;width:100%;clear:both}
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+    .header-sticky{position:fixed;display:block;float:left;top:50px;z-index:999;}
+    .header-sticky-middle-title span.special-text{font-size:14px;font-weight:600;}
+    a.header-sticky-close{position:relative;display:inline-block;float:left;}
+    .header-sticky-middle{margin-left:10px;margin-right:10px;display:inline-block;float:left;max-width:60%;}
+    a#loyality-dwn{display:inline-block;float:left;width:28%;text-align:center;color:#fff;border:solid 1px #fff;line-height:16px;padding:5px;font-size:11px;font-weight:600;text-transform:uppercase;}
+    .loyalty-card-page-banner{background-image:url(/images/Loyality/Arena-Loyalty-Mobile-Banner.jpg);height:160px;background-position:top;margin-top:22px}
+    .msr-logo{margin-top:55px;}
+    .msr-logo img{max-width:60%;}
+    .right-loyalty-content p{margin-top:0;}
+    .new-progress-bar-design{padding:0 0 25px;}
+    .layout-wrapper button{margin:5px 7px;font-size:13px;}
+    .progress-bar-wrapper{width:95%;margin:0 auto;}
+    .progress-bar-wrapper:before{width:20px;height:20px;right:-2px;top:31px}
+    .progress-bar-wrapper:after{width:20px;height:20px;left:-2px;top:31px}
+    ul.point-information li{font-size:13px;vertical-align:text-bottom}
+    .expire-block-dashboard{margin:20px 0}
+    .box-one{padding:10px;min-width:155px;margin:10px 5px}
+    p.discover-more-offer{margin-top:0}
+    .accordion{max-width:100%;float:left}
+    ul.accordion li{margin-bottom:5px}
+    .submenu{padding:0 9px}
+    .inner-content-loyalty{padding:10px;margin:5px 0}
+    .left-loyalty-icon img{max-width:100%}
+    .left-loyalty-icon{margin-right:10px;width:21%;padding-right:10px}
+    .right-loyalty-content{width:100%}
+    .right-loyalty-content p{font-size:13px}
+    .right-loyalty-content span{font-size:13px}
+    .accordian-block{width:100%}
+    .box-one{padding:14px;min-width:80%;margin:5px 0;min-height:auto}
+    .box-one p{display:inline-block}
+    .left-loyalty-icon{width:20%}
+    .submenu{padding:5px 9px}
+    ul.date-block-earned li{display:block;width:100%}
+    .tab-tiers button{padding:10px 36px}
+    .badges-card{display:block;width:100%;height:300px;margin:10px auto}
+    .box-one.availabale-points{margin-right:0}
+    .box-one.expired-points span{font-size:15px}
+    .expire-block-dashboard{margin:25px 0!important;}
+    .left-text-name{display:block;float:left;width:100%;text-align:left;padding:0 15px}
+    .left-text-name h2{margin:5px 0}
+    .left-text-name ul{margin:0;display:block}
+    .right-text-number{display:block;float:left;width:100%;text-align:left;padding:0 15px}
+    .right-text-number h2{margin:10px 0;text-transform:uppercase;font-size:15px!important;}
+    .transaction-history-design{width:100%;margin:0 auto}
+    .transaction-history-design .loyalty-warned-table-credit h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    .transaction-history-design .loyalty-warned-table-debit h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    .transaction-history-design .loyalty-warned-table-expired h3{margin:5px 0;font-size:16px;text-align:center;line-height:28px;font-weight:700}
+    ul.date-block-earned input.to-design{width:100%;border:none;background:#fff;line-height:40px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:0;margin-bottom:5px}
+    ul.date-block-earned input.from-design{width:100%;border:none;background:#fff;line-height:40px;font-size:13px;color:#000;cursor:pointer;text-indent:10px;text-transform:uppercase;margin-right:0;margin-bottom:5px}
+    ul.date-block-earned li:first-child{color:#fff;margin-bottom:10px}
+    .process-model li.active a span.tier-list-circle{background-image:none}
+    .more-icon-preocess.process-model li span{font-size:16px}
+    .more-icon-preocess.process-model li::after{top:21px}
+    .process-model li{display:inline-block;width:49%;text-align:left;float:none}
+    ul.nav.nav-tabs.process-model.more-icon-preocess li:last-child{text-align:right}
+    .process-model li::after{width:320px}
+    span.tab-name{right:0}
+    ul.nav.nav-tabs.process-model.more-icon-preocess li:last-child a{padding-right:0}
+    .modal-dialog.mobile-popup-design{margin-top:30%;}
+    .Experiential-design-text span{margin:0!important;}
+    .Experiential-design-text span img{max-width:100%;text-align:left}
+    .customer-menu ul.nav.nav-tabs li a{padding:10px 4px;font-size:11px;margin-right:0}
+    .customer-menu ul.nav.nav-tabs{width:100%;margin-top:0}
+    .enrollment-form-design .modal-dialog{width:100%}
+    .custom-width{margin-top:18%;height:560px;overflow-x:hidden!important; overflow-y:auto!important;}
+    .right-loyalty-content p{margin-top:5px}
+    .tab-content{float:left}
+    .right-text-number{padding:0}
+    .left-text-name{padding:10px 0 0}
+    .right-text-number h2{margin-bottom:0}
+    .customer-menu ul.nav.nav-tabs:first-child li a{padding-left:0!important;}
+    .loyalty-tab{margin-top:0}
+    .support ul li{padding-left:0;text-align:center}
+    video#myVideo{height:auto}
+    .right-loyalty-content{width:75%;}
+    .modal-content.loyalty-model{width:100%}
+    div#messages{overflow:auto;width:95%;border:none;padding:0}
+    .modal-body.enrollpopup-design{height:490px;overflow:auto}
+    .notoification{border:none;border-bottom:solid 1px #ccc;width:100%;margin-bottom:0}
+    div#messages{position:absolute;right:0;z-index:9999;background:#fff;padding:0;max-height:360px;overflow:auto}
+    input#dob{position:relative;}
+    input#dob:after{position:absolute;content:'Select DOB';width:100%;top:20px;color:#898989;text-transform:uppercase;left:5px;font-size:11px;}
+    .loyalty-container .row .col-xs-12{padding:0}
+    .faq-block{width:100%}
+    ul.dashboard-popup li:first-child{margin-top:0}
+    p.notification-bell{display:block;margin:0;padding:5px;position:absolute;z-index:999999;right:0;cursor:pointer}
+    .layout-wrapper button.layout-tablinks:first-child{margin-right:15px}
+    ul.loyalti-name-top-header li{display:block;float:left}
+    ul.loyalti-name-top-header{display:block;float:left;width:100%;position:relative}
+    ul.loyalti-name-top-header li.notification-bell{top:-25px;position:absolute;right:0;display:block!important;}
+    span.dashboard-ancor{right:20px;top:auto;bottom:20px}
+    .content-sec ul li .right-text p{padding-right:25px}
+    button.enrollBtn.mobile-center{float:none}
+    .loyalty-new-card-design .text-design h3 {margin: 5px; font-size: 13px !important; padding: 0 2px; word-wrap: break-word;}
+    .text-design{float:left;width:100%;clear:both}
+    .text-design {height: auto;}
+    }
+    
+    
+    @media (max-width: 767px) {
+        .loyalty-new-card-design .text-design h3 {margin: 5px; font-size: 13px !important; padding: 0 2px; word-wrap: break-word;}
+        .enrollment-form-design .modal-dialog {margin: 0;}
+        .enrollment-form-design .modal-dialog .modal-content.loyalty-model {width: 90%; margin: 0 auto;}
+        div#form-popup {margin: 0; padding-top: 15%;}
+        div#enrolmentloader {padding-top: 35%;}
+    }
